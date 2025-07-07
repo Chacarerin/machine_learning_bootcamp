@@ -1,0 +1,495 @@
+Learning/Actividades clases/Modulo 4/AM4_enfermedades_cronicas/depuraciones_py/optimizacion_raytune.py"
+2025-07-06 14:43:15,091 INFO worker.py:1917 -- Started a local Ray instance.
+2025-07-06 14:43:15,763 INFO tune.py:253 -- Initializing Ray automatically. For cluster usage or custom Ray initialization, call `ray.init(...)` before `tune.run(...)`.
+╭────────────────────────────────────────────────────────────────────╮
+│ Configuration for experiment     train_model_2025-07-06_14-43-15   │
+├────────────────────────────────────────────────────────────────────┤
+│ Search algorithm                 BasicVariantGenerator             │
+│ Scheduler                        AsyncHyperBandScheduler           │
+│ Number of trials                 20                                │
+╰────────────────────────────────────────────────────────────────────╯
+
+View detailed results here: /Users/alejandro/ray_results/train_model_2025-07-06_14-43-15
+To visualize your results with TensorBoard, run: `tensorboard --logdir /tmp/ray/session_2025-07-06_14-43-14_480665_96320/artifacts/2025-07-06_14-43-15/train_model_2025-07-06_14-43-15/driver_artifacts`
+
+Trial status: 20 PENDING
+Current time: 2025-07-06 14:43:16. Total running time: 0s
+Logical resource usage: 11.0/11 CPUs, 0/0 GPUs
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Trial name                status       n_estimators     max_depth     min_samples_split     min_samples_leaf │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ train_model_13d52_00000   PENDING               173            28                     2                    4 │
+│ train_model_13d52_00001   PENDING               223            22                     9                    1 │
+│ train_model_13d52_00002   PENDING               119            41                     2                    2 │
+│ train_model_13d52_00003   PENDING               183            46                     3                    4 │
+│ train_model_13d52_00004   PENDING               232            19                     3                    4 │
+│ train_model_13d52_00005   PENDING               218            26                     5                    2 │
+│ train_model_13d52_00006   PENDING               259            32                     2                    1 │
+│ train_model_13d52_00007   PENDING               139            13                     7                    4 │
+│ train_model_13d52_00008   PENDING               209            37                     6                    3 │
+│ train_model_13d52_00009   PENDING                74            28                     5                    4 │
+│ train_model_13d52_00010   PENDING                82             8                     4                    2 │
+│ train_model_13d52_00011   PENDING               246             5                     5                    3 │
+│ train_model_13d52_00012   PENDING               246            19                     9                    3 │
+│ train_model_13d52_00013   PENDING                58             9                     5                    1 │
+│ train_model_13d52_00014   PENDING               128            31                     8                    4 │
+│ train_model_13d52_00015   PENDING               198            22                     2                    2 │
+│ train_model_13d52_00016   PENDING                73            33                     4                    2 │
+│ train_model_13d52_00017   PENDING               242            32                     3                    1 │
+│ train_model_13d52_00018   PENDING               289             5                     8                    4 │
+│ train_model_13d52_00019   PENDING               169            16                     8                    3 │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00000 started with configuration:
+╭──────────────────────────────────────────────╮
+│ Trial train_model_13d52_00000 config         │
+├──────────────────────────────────────────────┤
+│ max_depth                                 28 │
+│ min_samples_leaf                           4 │
+│ min_samples_split                          2 │
+│ n_estimators                             173 │
+╰──────────────────────────────────────────────╯
+
+Trial train_model_13d52_00005 started with configuration:
+╭──────────────────────────────────────────────╮
+│ Trial train_model_13d52_00005 config         │
+├──────────────────────────────────────────────┤
+│ max_depth                                 26 │
+│ min_samples_leaf                           2 │
+│ min_samples_split                          5 │
+│ n_estimators                             218 │
+╰──────────────────────────────────────────────╯
+
+Trial train_model_13d52_00006 started with configuration:
+╭──────────────────────────────────────────────╮
+│ Trial train_model_13d52_00006 config         │
+├──────────────────────────────────────────────┤
+│ max_depth                                 32 │
+│ min_samples_leaf                           1 │
+│ min_samples_split                          2 │
+│ n_estimators                             259 │
+╰──────────────────────────────────────────────╯
+
+Trial train_model_13d52_00002 started with configuration:
+╭──────────────────────────────────────────────╮
+│ Trial train_model_13d52_00002 config         │
+├──────────────────────────────────────────────┤
+│ max_depth                                 41 │
+│ min_samples_leaf                           2 │
+│ min_samples_split                          2 │
+│ n_estimators                             119 │
+╰──────────────────────────────────────────────╯
+
+Trial train_model_13d52_00001 started with configuration:
+╭──────────────────────────────────────────────╮
+│ Trial train_model_13d52_00001 config         │
+├──────────────────────────────────────────────┤
+│ max_depth                                 22 │
+│ min_samples_leaf                           1 │
+│ min_samples_split                          9 │
+│ n_estimators                             223 │
+╰──────────────────────────────────────────────╯
+
+Trial train_model_13d52_00003 started with configuration:
+╭──────────────────────────────────────────────╮
+│ Trial train_model_13d52_00003 config         │
+├──────────────────────────────────────────────┤
+│ max_depth                                 46 │
+│ min_samples_leaf                           4 │
+│ min_samples_split                          3 │
+│ n_estimators                             183 │
+╰──────────────────────────────────────────────╯
+
+Trial train_model_13d52_00008 started with configuration:
+╭──────────────────────────────────────────────╮
+│ Trial train_model_13d52_00008 config         │
+├──────────────────────────────────────────────┤
+│ max_depth                                 37 │
+│ min_samples_leaf                           3 │
+│ min_samples_split                          6 │
+│ n_estimators                             209 │
+╰──────────────────────────────────────────────╯
+
+Trial train_model_13d52_00004 started with configuration:
+╭──────────────────────────────────────────────╮
+│ Trial train_model_13d52_00004 config         │
+├──────────────────────────────────────────────┤
+│ max_depth                                 19 │
+│ min_samples_leaf                           4 │
+│ min_samples_split                          3 │
+│ n_estimators                             232 │
+╰──────────────────────────────────────────────╯
+
+Trial train_model_13d52_00007 started with configuration:
+╭──────────────────────────────────────────────╮
+│ Trial train_model_13d52_00007 config         │
+├──────────────────────────────────────────────┤
+│ max_depth                                 13 │
+│ min_samples_leaf                           4 │
+│ min_samples_split                          7 │
+│ n_estimators                             139 │
+╰──────────────────────────────────────────────╯
+
+Trial train_model_13d52_00009 started with configuration:
+╭─────────────────────────────────────────────╮
+│ Trial train_model_13d52_00009 config        │
+├─────────────────────────────────────────────┤
+│ max_depth                                28 │
+│ min_samples_leaf                          4 │
+│ min_samples_split                         5 │
+│ n_estimators                             74 │
+╰─────────────────────────────────────────────╯
+
+Trial train_model_13d52_00010 started with configuration:
+╭─────────────────────────────────────────────╮
+│ Trial train_model_13d52_00010 config        │
+├─────────────────────────────────────────────┤
+│ max_depth                                 8 │
+│ min_samples_leaf                          2 │
+│ min_samples_split                         4 │
+│ n_estimators                             82 │
+╰─────────────────────────────────────────────╯
+
+Trial train_model_13d52_00010 completed after 1 iterations at 2025-07-06 14:43:20. Total running time: 4s
+╭──────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00010 result             │
+├──────────────────────────────────────────────────┤
+│ checkpoint_dir_name                              │
+│ time_this_iter_s                         0.21121 │
+│ time_total_s                             0.21121 │
+│ training_iteration                             1 │
+│ accuracy                                       1 │
+╰──────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00002 completed after 1 iterations at 2025-07-06 14:43:20. Total running time: 4s
+╭──────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00002 result             │
+├──────────────────────────────────────────────────┤
+│ checkpoint_dir_name                              │
+│ time_this_iter_s                         0.54935 │
+│ time_total_s                             0.54935 │
+│ training_iteration                             1 │
+│ accuracy                                       1 │
+╰──────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00009 completed after 1 iterations at 2025-07-06 14:43:20. Total running time: 4s
+╭──────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00009 result             │
+├──────────────────────────────────────────────────┤
+│ checkpoint_dir_name                              │
+│ time_this_iter_s                         0.31229 │
+│ time_total_s                             0.31229 │
+│ training_iteration                             1 │
+│ accuracy                                       1 │
+╰──────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00000 completed after 1 iterations at 2025-07-06 14:43:20. Total running time: 4s
+╭──────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00000 result             │
+├──────────────────────────────────────────────────┤
+│ checkpoint_dir_name                              │
+│ time_this_iter_s                         0.88538 │
+│ time_total_s                             0.88538 │
+│ training_iteration                             1 │
+│ accuracy                                       1 │
+╰──────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00007 completed after 1 iterations at 2025-07-06 14:43:20. Total running time: 4s
+╭──────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00007 result             │
+├──────────────────────────────────────────────────┤
+│ checkpoint_dir_name                              │
+│ time_this_iter_s                         0.45306 │
+│ time_total_s                             0.45306 │
+│ training_iteration                             1 │
+│ accuracy                                       1 │
+╰──────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00003 completed after 1 iterations at 2025-07-06 14:43:20. Total running time: 4s
+╭─────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00003 result            │
+├─────────────────────────────────────────────────┤
+│ checkpoint_dir_name                             │
+│ time_this_iter_s                         0.7584 │
+│ time_total_s                             0.7584 │
+│ training_iteration                            1 │
+│ accuracy                                      1 │
+╰─────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00001 completed after 1 iterations at 2025-07-06 14:43:20. Total running time: 4s
+╭──────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00001 result             │
+├──────────────────────────────────────────────────┤
+│ checkpoint_dir_name                              │
+│ time_this_iter_s                         0.83708 │
+│ time_total_s                             0.83708 │
+│ training_iteration                             1 │
+│ accuracy                                       1 │
+╰──────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00005 completed after 1 iterations at 2025-07-06 14:43:20. Total running time: 4s
+╭──────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00005 result             │
+├──────────────────────────────────────────────────┤
+│ checkpoint_dir_name                              │
+│ time_this_iter_s                         0.90658 │
+│ time_total_s                             0.90658 │
+│ training_iteration                             1 │
+│ accuracy                                       1 │
+╰──────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00008 completed after 1 iterations at 2025-07-06 14:43:20. Total running time: 4s
+╭──────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00008 result             │
+├──────────────────────────────────────────────────┤
+│ checkpoint_dir_name                              │
+│ time_this_iter_s                         0.80835 │
+│ time_total_s                             0.80835 │
+│ training_iteration                             1 │
+│ accuracy                                       1 │
+╰──────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00004 completed after 1 iterations at 2025-07-06 14:43:20. Total running time: 4s
+╭─────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00004 result            │
+├─────────────────────────────────────────────────┤
+│ checkpoint_dir_name                             │
+│ time_this_iter_s                         0.7978 │
+│ time_total_s                             0.7978 │
+│ training_iteration                            1 │
+│ accuracy                                      1 │
+╰─────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00006 completed after 1 iterations at 2025-07-06 14:43:20. Total running time: 4s
+╭──────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00006 result             │
+├──────────────────────────────────────────────────┤
+│ checkpoint_dir_name                              │
+│ time_this_iter_s                         0.97792 │
+│ time_total_s                             0.97792 │
+│ training_iteration                             1 │
+│ accuracy                                       1 │
+╰──────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00011 started with configuration:
+╭──────────────────────────────────────────────╮
+│ Trial train_model_13d52_00011 config         │
+├──────────────────────────────────────────────┤
+│ max_depth                                  5 │
+│ min_samples_leaf                           3 │
+│ min_samples_split                          5 │
+│ n_estimators                             246 │
+╰──────────────────────────────────────────────╯
+
+Trial train_model_13d52_00012 started with configuration:
+╭──────────────────────────────────────────────╮
+│ Trial train_model_13d52_00012 config         │
+├──────────────────────────────────────────────┤
+│ max_depth                                 19 │
+│ min_samples_leaf                           3 │
+│ min_samples_split                          9 │
+│ n_estimators                             246 │
+╰──────────────────────────────────────────────╯
+
+Trial train_model_13d52_00013 started with configuration:
+╭─────────────────────────────────────────────╮
+│ Trial train_model_13d52_00013 config        │
+├─────────────────────────────────────────────┤
+│ max_depth                                 9 │
+│ min_samples_leaf                          1 │
+│ min_samples_split                         5 │
+│ n_estimators                             58 │
+╰─────────────────────────────────────────────╯
+
+Trial train_model_13d52_00014 started with configuration:
+╭──────────────────────────────────────────────╮
+│ Trial train_model_13d52_00014 config         │
+├──────────────────────────────────────────────┤
+│ max_depth                                 31 │
+│ min_samples_leaf                           4 │
+│ min_samples_split                          8 │
+│ n_estimators                             128 │
+╰──────────────────────────────────────────────╯
+
+Trial train_model_13d52_00015 started with configuration:
+╭──────────────────────────────────────────────╮
+│ Trial train_model_13d52_00015 config         │
+├──────────────────────────────────────────────┤
+│ max_depth                                 22 │
+│ min_samples_leaf                           2 │
+│ min_samples_split                          2 │
+│ n_estimators                             198 │
+╰──────────────────────────────────────────────╯
+
+Trial train_model_13d52_00016 started with configuration:
+╭─────────────────────────────────────────────╮
+│ Trial train_model_13d52_00016 config        │
+├─────────────────────────────────────────────┤
+│ max_depth                                33 │
+│ min_samples_leaf                          2 │
+│ min_samples_split                         4 │
+│ n_estimators                             73 │
+╰─────────────────────────────────────────────╯
+
+Trial train_model_13d52_00017 started with configuration:
+╭──────────────────────────────────────────────╮
+│ Trial train_model_13d52_00017 config         │
+├──────────────────────────────────────────────┤
+│ max_depth                                 32 │
+│ min_samples_leaf                           1 │
+│ min_samples_split                          3 │
+│ n_estimators                             242 │
+╰──────────────────────────────────────────────╯
+
+Trial train_model_13d52_00019 started with configuration:
+╭──────────────────────────────────────────────╮
+│ Trial train_model_13d52_00019 config         │
+├──────────────────────────────────────────────┤
+│ max_depth                                 16 │
+│ min_samples_leaf                           3 │
+│ min_samples_split                          8 │
+│ n_estimators                             169 │
+╰──────────────────────────────────────────────╯
+
+Trial train_model_13d52_00018 started with configuration:
+╭──────────────────────────────────────────────╮
+│ Trial train_model_13d52_00018 config         │
+├──────────────────────────────────────────────┤
+│ max_depth                                  5 │
+│ min_samples_leaf                           4 │
+│ min_samples_split                          8 │
+│ n_estimators                             289 │
+╰──────────────────────────────────────────────╯
+
+Trial train_model_13d52_00013 completed after 1 iterations at 2025-07-06 14:43:24. Total running time: 8s
+╭──────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00013 result             │
+├──────────────────────────────────────────────────┤
+│ checkpoint_dir_name                              │
+│ time_this_iter_s                         0.29542 │
+│ time_total_s                             0.29542 │
+│ training_iteration                             1 │
+│ accuracy                                       1 │
+╰──────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00011 completed after 1 iterations at 2025-07-06 14:43:24. Total running time: 8s
+╭──────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00011 result             │
+├──────────────────────────────────────────────────┤
+│ checkpoint_dir_name                              │
+│ time_this_iter_s                         0.70405 │
+│ time_total_s                             0.70405 │
+│ training_iteration                             1 │
+│ accuracy                                 0.99695 │
+╰──────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00016 completed after 1 iterations at 2025-07-06 14:43:24. Total running time: 8s
+╭──────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00016 result             │
+├──────────────────────────────────────────────────┤
+│ checkpoint_dir_name                              │
+│ time_this_iter_s                         0.40069 │
+│ time_total_s                             0.40069 │
+│ training_iteration                             1 │
+│ accuracy                                       1 │
+╰──────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00014 completed after 1 iterations at 2025-07-06 14:43:24. Total running time: 8s
+╭──────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00014 result             │
+├──────────────────────────────────────────────────┤
+│ checkpoint_dir_name                              │
+│ time_this_iter_s                         0.54852 │
+│ time_total_s                             0.54852 │
+│ training_iteration                             1 │
+│ accuracy                                       1 │
+╰──────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00019 completed after 1 iterations at 2025-07-06 14:43:24. Total running time: 9s
+╭─────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00019 result            │
+├─────────────────────────────────────────────────┤
+│ checkpoint_dir_name                             │
+│ time_this_iter_s                         0.5361 │
+│ time_total_s                             0.5361 │
+│ training_iteration                            1 │
+│ accuracy                                      1 │
+╰─────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00015 completed after 1 iterations at 2025-07-06 14:43:24. Total running time: 9s
+╭──────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00015 result             │
+├──────────────────────────────────────────────────┤
+│ checkpoint_dir_name                              │
+│ time_this_iter_s                         0.68295 │
+│ time_total_s                             0.68295 │
+│ training_iteration                             1 │
+│ accuracy                                       1 │
+╰──────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00018 completed after 1 iterations at 2025-07-06 14:43:24. Total running time: 9s
+╭──────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00018 result             │
+├──────────────────────────────────────────────────┤
+│ checkpoint_dir_name                              │
+│ time_this_iter_s                         0.47739 │
+│ time_total_s                             0.47739 │
+│ training_iteration                             1 │
+│ accuracy                                 0.99695 │
+╰──────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00012 completed after 1 iterations at 2025-07-06 14:43:24. Total running time: 9s
+╭──────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00012 result             │
+├──────────────────────────────────────────────────┤
+│ checkpoint_dir_name                              │
+│ time_this_iter_s                         0.77537 │
+│ time_total_s                             0.77537 │
+│ training_iteration                             1 │
+│ accuracy                                       1 │
+╰──────────────────────────────────────────────────╯
+
+Trial train_model_13d52_00017 completed after 1 iterations at 2025-07-06 14:43:24. Total running time: 9s
+╭──────────────────────────────────────────────────╮
+│ Trial train_model_13d52_00017 result             │
+├──────────────────────────────────────────────────┤
+│ checkpoint_dir_name                              │
+│ time_this_iter_s                         0.75192 │
+│ time_total_s                             0.75192 │
+│ training_iteration                             1 │
+│ accuracy                                       1 │
+╰──────────────────────────────────────────────────╯
+2025-07-06 14:43:24,956 INFO tune.py:1009 -- Wrote the latest version of all result files and experiment state to '/Users/alejandro/ray_results/train_model_2025-07-06_14-43-15' in 0.0131s.
+
+Trial status: 20 TERMINATED
+Current time: 2025-07-06 14:43:24. Total running time: 9s
+Logical resource usage: 1.0/11 CPUs, 0/0 GPUs
+╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Trial name                status         n_estimators     max_depth     min_samples_split     min_samples_leaf     iter     total time (s)     accuracy │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ train_model_13d52_00000   TERMINATED              173            28                     2                    4        1           0.885383     1        │
+│ train_model_13d52_00001   TERMINATED              223            22                     9                    1        1           0.837076     1        │
+│ train_model_13d52_00002   TERMINATED              119            41                     2                    2        1           0.54935      1        │
+│ train_model_13d52_00003   TERMINATED              183            46                     3                    4        1           0.758398     1        │
+│ train_model_13d52_00004   TERMINATED              232            19                     3                    4        1           0.797801     1        │
+│ train_model_13d52_00005   TERMINATED              218            26                     5                    2        1           0.906579     1        │
+│ train_model_13d52_00006   TERMINATED              259            32                     2                    1        1           0.977918     1        │
+│ train_model_13d52_00007   TERMINATED              139            13                     7                    4        1           0.453058     1        │
+│ train_model_13d52_00008   TERMINATED              209            37                     6                    3        1           0.808348     1        │
+│ train_model_13d52_00009   TERMINATED               74            28                     5                    4        1           0.312295     1        │
+│ train_model_13d52_00010   TERMINATED               82             8                     4                    2        1           0.211206     1        │
+│ train_model_13d52_00011   TERMINATED              246             5                     5                    3        1           0.70405      0.996951 │
+│ train_model_13d52_00012   TERMINATED              246            19                     9                    3        1           0.775371     1        │
+│ train_model_13d52_00013   TERMINATED               58             9                     5                    1        1           0.29542      1        │
+│ train_model_13d52_00014   TERMINATED              128            31                     8                    4        1           0.548517     1        │
+│ train_model_13d52_00015   TERMINATED              198            22                     2                    2        1           0.682948     1        │
+│ train_model_13d52_00016   TERMINATED               73            33                     4                    2        1           0.40069      1        │
+│ train_model_13d52_00017   TERMINATED              242            32                     3                    1        1           0.75192      1        │
+│ train_model_13d52_00018   TERMINATED              289             5                     8                    4        1           0.477392     0.996951 │
+│ train_model_13d52_00019   TERMINATED              169            16                     8                    3        1           0.536101     1        │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+==== Mejor resultado ====
+Mejores hiperparámetros encontrados por Ray Tune:
+{'n_estimators': 173, 'max_depth': 28, 'min_samples_split': 2, 'min_samples_leaf': 4}
+Mejor accuracy obtenido: 1.0

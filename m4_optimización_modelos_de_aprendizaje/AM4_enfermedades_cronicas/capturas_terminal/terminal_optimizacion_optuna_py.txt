@@ -1,0 +1,341 @@
+(django_projects) alejandro@MacBook-Pro-de-Ruben AM4_enfermedades_cronicas % /Users/alejandro/.virtualenvs/django_projects/
+bin/python "/Users/alejandro/Library/Mobile Documents/com~apple~CloudDocs/Documents/Academicos - Estudios/Bootcamp Machine 
+Learning/Actividades clases/Modulo 4/AM4_enfermedades_cronicas/depuraciones_py/optimizacion_optuna.py"
+[I 2025-07-06 14:15:10,917] A new study created in memory with name: no-name-d8f9797c-fdd3-43ba-999b-725554cb7d9a
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:11,387] Trial 0 finished with value: 1.0 and parameters: {'n_estimators': 74, 'max_depth': 23, 'min_samples_split': 5, 'min_samples_leaf': 1}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:12,684] Trial 1 finished with value: 1.0 and parameters: {'n_estimators': 207, 'max_depth': 38, 'min_samples_split': 2, 'min_samples_leaf': 4}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:13,854] Trial 2 finished with value: 1.0 and parameters: {'n_estimators': 186, 'max_depth': 48, 'min_samples_split': 4, 'min_samples_leaf': 4}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:14,867] Trial 3 finished with value: 1.0 and parameters: {'n_estimators': 190, 'max_depth': 17, 'min_samples_split': 10, 'min_samples_leaf': 5}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:15,525] Trial 4 finished with value: 1.0 and parameters: {'n_estimators': 99, 'max_depth': 46, 'min_samples_split': 4, 'min_samples_leaf': 2}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:16,444] Trial 5 finished with value: 1.0 and parameters: {'n_estimators': 198, 'max_depth': 8, 'min_samples_split': 5, 'min_samples_leaf': 2}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:17,499] Trial 6 finished with value: 1.0 and parameters: {'n_estimators': 182, 'max_depth': 21, 'min_samples_split': 6, 'min_samples_leaf': 4}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:18,577] Trial 7 finished with value: 1.0 and parameters: {'n_estimators': 174, 'max_depth': 42, 'min_samples_split': 3, 'min_samples_leaf': 5}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:18,915] Trial 8 finished with value: 1.0 and parameters: {'n_estimators': 54, 'max_depth': 25, 'min_samples_split': 8, 'min_samples_leaf': 1}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:19,252] Trial 9 finished with value: 1.0 and parameters: {'n_estimators': 51, 'max_depth': 40, 'min_samples_split': 10, 'min_samples_leaf': 4}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:21,114] Trial 10 finished with value: 1.0 and parameters: {'n_estimators': 291, 'max_depth': 31, 'min_samples_split': 7, 'min_samples_leaf': 1}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:22,675] Trial 11 finished with value: 1.0 and parameters: {'n_estimators': 250, 'max_depth': 34, 'min_samples_split': 2, 'min_samples_leaf': 3}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:23,280] Trial 12 finished with value: 1.0 and parameters: {'n_estimators': 126, 'max_depth': 12, 'min_samples_split': 2, 'min_samples_leaf': 3}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:24,772] Trial 13 finished with value: 1.0 and parameters: {'n_estimators': 235, 'max_depth': 35, 'min_samples_split': 5, 'min_samples_leaf': 2}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:25,534] Trial 14 finished with value: 1.0 and parameters: {'n_estimators': 126, 'max_depth': 25, 'min_samples_split': 8, 'min_samples_leaf': 4}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:26,293] Trial 15 finished with value: 1.0 and parameters: {'n_estimators': 139, 'max_depth': 17, 'min_samples_split': 3, 'min_samples_leaf': 1}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:26,847] Trial 16 finished with value: 1.0 and parameters: {'n_estimators': 87, 'max_depth': 29, 'min_samples_split': 6, 'min_samples_leaf': 3}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:28,327] Trial 17 finished with value: 1.0 and parameters: {'n_estimators': 230, 'max_depth': 37, 'min_samples_split': 3, 'min_samples_leaf': 2}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:29,168] Trial 18 finished with value: 1.0 and parameters: {'n_estimators': 150, 'max_depth': 19, 'min_samples_split': 4, 'min_samples_leaf': 3}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:30,950] Trial 19 finished with value: 1.0 and parameters: {'n_estimators': 284, 'max_depth': 43, 'min_samples_split': 2, 'min_samples_leaf': 5}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:32,293] Trial 20 finished with value: 1.0 and parameters: {'n_estimators': 216, 'max_depth': 31, 'min_samples_split': 7, 'min_samples_leaf': 4}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:33,292] Trial 21 finished with value: 1.0 and parameters: {'n_estimators': 159, 'max_depth': 48, 'min_samples_split': 4, 'min_samples_leaf': 4}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:34,660] Trial 22 finished with value: 1.0 and parameters: {'n_estimators': 218, 'max_depth': 49, 'min_samples_split': 5, 'min_samples_leaf': 4}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:36,279] Trial 23 finished with value: 1.0 and parameters: {'n_estimators': 262, 'max_depth': 39, 'min_samples_split': 3, 'min_samples_leaf': 5}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:37,575] Trial 24 finished with value: 1.0 and parameters: {'n_estimators': 203, 'max_depth': 45, 'min_samples_split': 5, 'min_samples_leaf': 3}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:38,646] Trial 25 finished with value: 1.0 and parameters: {'n_estimators': 166, 'max_depth': 50, 'min_samples_split': 4, 'min_samples_leaf': 4}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:39,238] Trial 26 finished with value: 1.0 and parameters: {'n_estimators': 96, 'max_depth': 25, 'min_samples_split': 2, 'min_samples_leaf': 5}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:39,971] Trial 27 finished with value: 1.0 and parameters: {'n_estimators': 114, 'max_depth': 34, 'min_samples_split': 3, 'min_samples_leaf': 3}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:40,355] Trial 28 finished with value: 1.0 and parameters: {'n_estimators': 74, 'max_depth': 13, 'min_samples_split': 4, 'min_samples_leaf': 4}. Best is trial 0 with value: 1.0.
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+/Users/alejandro/.virtualenvs/django_projects/lib/python3.12/site-packages/sklearn/utils/_response.py:203: UserWarning: The number of unique classes is greater than 50% of the number of samples.
+  target_type = type_of_target(classes)
+[I 2025-07-06 14:15:41,520] Trial 29 finished with value: 1.0 and parameters: {'n_estimators': 187, 'max_depth': 43, 'min_samples_split': 6, 'min_samples_leaf': 5}. Best is trial 0 with value: 1.0.
+Mejores hiperparámetros encontrados:
+{'n_estimators': 74, 'max_depth': 23, 'min_samples_split': 5, 'min_samples_leaf': 1}
+Mejor accuracy promedio: 1.0000
+
+Evaluación del modelo optimizado:
+Accuracy: 1.0
+(django_projects) alejandro@MacBook-Pro-de-Ruben AM4_enfermedades_cronicas % 
