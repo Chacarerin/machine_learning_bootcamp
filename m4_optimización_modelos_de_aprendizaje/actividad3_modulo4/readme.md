@@ -15,11 +15,13 @@ Este proyecto implementa un modelo de clasificación binaria usando Random Fores
 
 ## 📂 Estructura del Proyecto
 
+```
 ACTIVIDAD3_MODULO4/
 ├── principal.py               # Contiene todo el código del proyecto
 ├── requirements.txt           # Paquetes utilizados
 ├── captura_terminal.txt       # Evidencia de ejecución completa
 └── readme.md                  # Este archivo
+```
 
 ## 📥 Uso del Proyecto
 
