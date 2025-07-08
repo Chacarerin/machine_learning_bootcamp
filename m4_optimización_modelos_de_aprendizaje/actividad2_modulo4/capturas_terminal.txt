@@ -1,5 +1,5 @@
-/m4_optimización_modelos_de_aprendizaje/actividad2_modulo4/principal.
-py
+/m4_optimización_modelos_de_aprendizaje/actividad2_modulo4/principal.py
+
 Cargando dataset...
 Dimensiones: (768, 9)
 
