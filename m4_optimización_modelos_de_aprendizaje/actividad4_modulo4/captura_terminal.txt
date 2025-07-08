@@ -1,0 +1,34 @@
+/machine_learning/m4_optimización_modelos_de_aprendizaje/actividad4_modulo4/principal.py
+
+
+Modelo base:
+              precision    recall  f1-score   support
+
+           0       0.98      0.94      0.96        63
+           1       0.96      0.99      0.98       108
+
+    accuracy                           0.97       171
+   macro avg       0.97      0.96      0.97       171
+weighted avg       0.97      0.97      0.97       171
+
+F1-Score modelo base: 0.9772
+
+Ejecutando algoritmo genético...
+
+Mejores hiperparámetros encontrados: {'n_estimators': 57, 'max_depth': 8, 'min_samples_split': 5, 'random_state': 42}
+
+Modelo optimizado con algoritmo genético:
+              precision    recall  f1-score   support
+
+           0       0.97      0.92      0.94        63
+           1       0.95      0.98      0.97       108
+
+    accuracy                           0.96       171
+   macro avg       0.96      0.95      0.96       171
+weighted avg       0.96      0.96      0.96       171
+
+F1-Score modelo optimizado: 0.9680
+
+Resumen comparativo:
+F1 modelo base      : 0.9772
+F1 modelo optimizado: 0.9680

@@ -1,4 +1,4 @@
-# modelo.py
+# carga de librerias necesarias
 
 import time
 import numpy as np
