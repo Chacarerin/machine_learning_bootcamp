@@ -17,11 +17,13 @@ Este proyecto aplica un algoritmo genético usando la librería DEAP para ajusta
 
 ## 📂 Estructura del Proyecto
 
+```
 ACTIVIDAD4_MODULO4/
-├── principal.py               # Código completo del proyecto
-├── requirements.txt           # Paquetes utilizados
-├── captura_terminal.txt       # Evidencia de ejecución
-└── readme.md                  # Este archivo
+├── principal.py             # Código completo del proyecto
+├── requirements.txt         # Paquetes utilizados
+├── captura_terminal.txt     # Evidencia de ejecución
+└── readme.md                # Este archivo
+```
 
 ## 📥 Uso del Proyecto
 
