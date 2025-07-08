@@ -1,0 +1,91 @@
+/m4_optimización_modelos_de_aprendizaje/actividad1_modulo4/principal.py
+Dimensiones del dataset: (768, 9)
+Primeras filas:
+   embarazos  glucosa  presion  pliegue_cutaneo  insulina   imc  pedigree  edad  diabetes
+0          6      148       72               35         0  33.6     0.627    50         1
+1          1       85       66               29         0  26.6     0.351    31         0
+2          8      183       64                0         0  23.3     0.672    32         1
+3          1       89       66               23        94  28.1     0.167    21         0
+4          0      137       40               35       168  43.1     2.288    33         1
+
+Valores cero por columna:
+glucosa              5
+presion             35
+pliegue_cutaneo    227
+insulina           374
+imc                 11
+dtype: int64
+
+Evaluación del Modelo Base
+F1 Score: 0.6285714285714286
+Precisión: 0.6470588235294118
+Recall: 0.6111111111111112
+AUC: 0.7155555555555557
+Reporte de Clasificación:
+              precision    recall  f1-score   support
+
+           0       0.80      0.82      0.81       100
+           1       0.65      0.61      0.63        54
+
+    accuracy                           0.75       154
+   macro avg       0.72      0.72      0.72       154
+weighted avg       0.74      0.75      0.75       154
+
+
+Mejores hiperparámetros - Grid Search:
+{'max_depth': 7, 'min_samples_split': 10, 'n_estimators': 100}
+
+Evaluación del Grid Search
+F1 Score: 0.6019417475728155
+Precisión: 0.6326530612244898
+Recall: 0.5740740740740741
+AUC: 0.697037037037037
+Reporte de Clasificación:
+              precision    recall  f1-score   support
+
+           0       0.78      0.82      0.80       100
+           1       0.63      0.57      0.60        54
+
+    accuracy                           0.73       154
+   macro avg       0.71      0.70      0.70       154
+weighted avg       0.73      0.73      0.73       154
+
+[I 2025-07-08 00:53:36,476] A new study created in memory with name: no-name-a41a52f7-006a-4839-938b-0bab247e1201
+[I 2025-07-08 00:53:36,542] Trial 0 finished with value: 0.6213592233009708 and parameters: {'n_estimators': 77, 'max_depth': 9, 'min_samples_split': 7}. Best is trial 0 with value: 0.6213592233009708.
+[I 2025-07-08 00:53:36,615] Trial 1 finished with value: 0.5 and parameters: {'n_estimators': 113, 'max_depth': 2, 'min_samples_split': 19}. Best is trial 0 with value: 0.6213592233009708.
+[I 2025-07-08 00:53:36,683] Trial 2 finished with value: 0.5656565656565656 and parameters: {'n_estimators': 116, 'max_depth': 6, 'min_samples_split': 13}. Best is trial 0 with value: 0.6213592233009708.
+[I 2025-07-08 00:53:36,739] Trial 3 finished with value: 0.6213592233009708 and parameters: {'n_estimators': 81, 'max_depth': 10, 'min_samples_split': 4}. Best is trial 0 with value: 0.6213592233009708.
+[I 2025-07-08 00:53:36,806] Trial 4 finished with value: 0.5494505494505495 and parameters: {'n_estimators': 137, 'max_depth': 3, 'min_samples_split': 5}. Best is trial 0 with value: 0.6213592233009708.
+[I 2025-07-08 00:53:36,864] Trial 5 finished with value: 0.5652173913043478 and parameters: {'n_estimators': 116, 'max_depth': 3, 'min_samples_split': 2}. Best is trial 0 with value: 0.6213592233009708.
+[I 2025-07-08 00:53:36,992] Trial 6 finished with value: 0.6346153846153846 and parameters: {'n_estimators': 194, 'max_depth': 10, 'min_samples_split': 3}. Best is trial 6 with value: 0.6346153846153846.
+[I 2025-07-08 00:53:37,027] Trial 7 finished with value: 0.6138613861386139 and parameters: {'n_estimators': 55, 'max_depth': 9, 'min_samples_split': 19}. Best is trial 6 with value: 0.6346153846153846.
+[I 2025-07-08 00:53:37,094] Trial 8 finished with value: 0.594059405940594 and parameters: {'n_estimators': 112, 'max_depth': 6, 'min_samples_split': 9}. Best is trial 6 with value: 0.6346153846153846.
+[I 2025-07-08 00:53:37,159] Trial 9 finished with value: 0.5567010309278351 and parameters: {'n_estimators': 115, 'max_depth': 6, 'min_samples_split': 18}. Best is trial 6 with value: 0.6346153846153846.
+[I 2025-07-08 00:53:37,284] Trial 10 finished with value: 0.5858585858585859 and parameters: {'n_estimators': 198, 'max_depth': 8, 'min_samples_split': 14}. Best is trial 6 with value: 0.6346153846153846.
+[I 2025-07-08 00:53:37,415] Trial 11 finished with value: 0.6019417475728155 and parameters: {'n_estimators': 198, 'max_depth': 8, 'min_samples_split': 8}. Best is trial 6 with value: 0.6346153846153846.
+[I 2025-07-08 00:53:37,520] Trial 12 finished with value: 0.6407766990291263 and parameters: {'n_estimators': 162, 'max_depth': 10, 'min_samples_split': 6}. Best is trial 12 with value: 0.6407766990291263.
+[I 2025-07-08 00:53:37,629] Trial 13 finished with value: 0.6213592233009708 and parameters: {'n_estimators': 166, 'max_depth': 10, 'min_samples_split': 2}. Best is trial 12 with value: 0.6407766990291263.
+[I 2025-07-08 00:53:37,740] Trial 14 finished with value: 0.6078431372549019 and parameters: {'n_estimators': 170, 'max_depth': 8, 'min_samples_split': 5}. Best is trial 12 with value: 0.6407766990291263.
+[I 2025-07-08 00:53:37,849] Trial 15 finished with value: 0.6274509803921569 and parameters: {'n_estimators': 165, 'max_depth': 10, 'min_samples_split': 11}. Best is trial 12 with value: 0.6407766990291263.
+[I 2025-07-08 00:53:37,940] Trial 16 finished with value: 0.62 and parameters: {'n_estimators': 146, 'max_depth': 7, 'min_samples_split': 6}. Best is trial 12 with value: 0.6407766990291263.
+[I 2025-07-08 00:53:38,054] Trial 17 finished with value: 0.6153846153846154 and parameters: {'n_estimators': 182, 'max_depth': 9, 'min_samples_split': 10}. Best is trial 12 with value: 0.6407766990291263.
+[I 2025-07-08 00:53:38,144] Trial 18 finished with value: 0.5510204081632653 and parameters: {'n_estimators': 147, 'max_depth': 7, 'min_samples_split': 3}. Best is trial 12 with value: 0.6407766990291263.
+[I 2025-07-08 00:53:38,246] Trial 19 finished with value: 0.5714285714285714 and parameters: {'n_estimators': 186, 'max_depth': 5, 'min_samples_split': 14}. Best is trial 12 with value: 0.6407766990291263.
+
+Mejores hiperparámetros - Optuna:
+{'n_estimators': 162, 'max_depth': 10, 'min_samples_split': 6}
+
+Evaluación del Optuna
+F1 Score: 0.6407766990291263
+Precisión: 0.673469387755102
+Recall: 0.6111111111111112
+AUC: 0.7255555555555555
+Reporte de Clasificación:
+              precision    recall  f1-score   support
+
+           0       0.80      0.84      0.82       100
+           1       0.67      0.61      0.64        54
+
+    accuracy                           0.76       154
+   macro avg       0.74      0.73      0.73       154
+weighted avg       0.76      0.76      0.76       154
