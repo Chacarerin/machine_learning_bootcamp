@@ -1,0 +1,114 @@
+/m4_o
+ptimización_modelos_de_aprendizaje/actividad5_modulo4/principal.py
+COMPARACIÓN DE ESTRATEGIAS DE TUNING AUTOMÁTICO
+Dataset: Breast Cancer (Scikit-learn)
+Modelo: Random Forest Classifier
+Métrica: F1 Score
+
+==================================================
+MODELO BASE (SIN TUNING)
+==================================================
+Dataset cargado: 569 muestras, 30 características
+Distribución de clases: {1: 357, 0: 212}
+Conjunto de entrenamiento: 398 muestras
+Conjunto de prueba: 171 muestras
+Dataset cargado: 398 muestras de entrenamiento, 171 de prueba
+Características: 30
+F1 Score (modelo base): 0.9488
+Tiempo de entrenamiento: 0.06 segundos
+
+==================================================
+OPTIMIZACIÓN CON OPTUNA
+==================================================
+Dataset cargado: 569 muestras, 30 características
+Distribución de clases: {1: 357, 0: 212}
+Conjunto de entrenamiento: 398 muestras
+Conjunto de prueba: 171 muestras
+Dataset cargado: 569 muestras, 30 características
+Distribución de clases: {1: 357, 0: 212}
+Conjunto de entrenamiento: 398 muestras
+Conjunto de prueba: 171 muestras
+Dataset cargado: 569 muestras, 30 características
+Distribución de clases: {1: 357, 0: 212}
+Conjunto de entrenamiento: 398 muestras
+Conjunto de prueba: 171 muestras
+Dataset cargado: 569 muestras, 30 características
+Distribución de clases: {1: 357, 0: 212}
+Conjunto de entrenamiento: 398 muestras
+Conjunto de prueba: 171 muestras
+Dataset cargado: 569 muestras, 30 características
+Distribución de clases: {1: 357, 0: 212}
+Conjunto de entrenamiento: 398 muestras
+Conjunto de prueba: 171 muestras
+Dataset cargado: 569 muestras, 30 características
+Distribución de clases: {1: 357, 0: 212}
+Conjunto de entrenamiento: 398 muestras
+Conjunto de prueba: 171 muestras
+Dataset cargado: 569 muestras, 30 características
+Distribución de clases: {1: 357, 0: 212}
+Conjunto de entrenamiento: 398 muestras
+Conjunto de prueba: 171 muestras
+Dataset cargado: 569 muestras, 30 características
+Distribución de clases: {1: 357, 0: 212}
+Conjunto de entrenamiento: 398 muestras
+Conjunto de prueba: 171 muestras
+Dataset cargado: 569 muestras, 30 características
+Distribución de clases: {1: 357, 0: 212}
+Conjunto de entrenamiento: 398 muestras
+Conjunto de prueba: 171 muestras
+Dataset cargado: 569 muestras, 30 características
+Distribución de clases: {1: 357, 0: 212}
+Conjunto de entrenamiento: 398 muestras
+Conjunto de prueba: 171 muestras
+Dataset cargado: 569 muestras, 30 características
+Distribución de clases: {1: 357, 0: 212}
+Conjunto de entrenamiento: 398 muestras
+Conjunto de prueba: 171 muestras
+Dataset cargado: 569 muestras, 30 características
+Distribución de clases: {1: 357, 0: 212}
+Conjunto de entrenamiento: 398 muestras
+Conjunto de prueba: 171 muestras
+Dataset cargado: 569 muestras, 30 características
+Distribución de clases: {1: 357, 0: 212}
+Conjunto de entrenamiento: 398 muestras
+Conjunto de prueba: 171 muestras
+Dataset cargado: 569 muestras, 30 características
+Distribución de clases: {1: 357, 0: 212}
+Conjunto de entrenamiento: 398 muestras
+Conjunto de prueba: 171 muestras
+Dataset cargado: 569 muestras, 30 características
+Distribución de clases: {1: 357, 0: 212}
+Conjunto de entrenamiento: 398 muestras
+Conjunto de prueba: 171 muestras
+Tiempo total de optimización: 3.78 segundos
+Mejor F1 Score (validación cruzada): 0.9721
+Mejores hiperparámetros:
+  n_estimators: 200
+  max_depth: 8
+  min_samples_split: 2
+Dataset cargado: 569 muestras, 30 características
+Distribución de clases: {1: 357, 0: 212}
+Conjunto de entrenamiento: 398 muestras
+Conjunto de prueba: 171 muestras
+F1 Score final en test: 0.9488
+
+==================================================
+OPTIMIZACIÓN CON RAY TUNE
+==================================================
+2025-07-08 23:30:21,905 INFO worker.py:1917 -- Started a local Ray instance.
+Error en Ray Tune: name 'config' is not defined
+
+==================================================
+COMPARACIÓN DE RESULTADOS
+==================================================
+Ray Tune no completó exitosamente. Comparando solo Optuna vs Modelo Base.
+     Método  F1 Score (Test) F1 Score (CV) Tiempo (s) N° Trials
+Modelo Base         0.948837           N/A        N/A       N/A
+     Optuna         0.948837      0.972127    3.77944        15
+
+MEJORAS RESPECTO AL MODELO BASE:
+Optuna: +0.00%
+
+==================================================
+ANÁLISIS COMPLETADO
+==================================================
