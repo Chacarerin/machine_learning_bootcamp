@@ -1,6 +1,6 @@
-# 🧠 Regularización y Validación de Modelos - Módulo 5
+# 🧠 Modelos Avanzados de Regresión y Clasificación - Módulo 5
 
-Este repositorio contiene el desarrollo completo de las actividades del **Módulo 5** del curso de *Machine Learning*, enfocadas en la **regularización, evaluación y validación cruzada de modelos de regresión y clasificación**, incluyendo técnicas de interpretabilidad como SHAP.
+Este repositorio contiene el desarrollo completo de las actividades del **Módulo 5** del curso de *Machine Learning*, enfocadas en aplicar técnicas avanzadas de regresión y clasificación para desarrollar, implementar y evaluar modelos predictivos robustos y precisos, utilizando **métodos como elastic net, regresión cuantílica, ensemble methods, boosting y bagging** acorde las buenas prácticas de la industria
 
 Cada carpeta corresponde a una sesión del módulo, así como a la evaluación final integradora, organizada con código limpio, visualizaciones y documentación profesional lista para entrega.
 
