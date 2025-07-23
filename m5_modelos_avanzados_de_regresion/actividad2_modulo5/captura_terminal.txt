@@ -1,0 +1,27 @@
+/Bootcamp Machine Learning/Actividades clases/Modulo 5/activi
+dad2_modulo5/principal.py"
+Elastic Net - RMSE: 0.7974
+
+Coeficientes del modelo Elastic Net:
+MedInc: 0.7138
+HouseAge: 0.1373
+AveRooms: -0.0000
+AveBedrms: 0.0000
+Population: 0.0000
+AveOccup: -0.0000
+Latitude: -0.1757
+Longitude: -0.1333
+Quantile 10 - Pinball Loss: 0.0244
+Quantile 50 - Pinball Loss: 0.1117
+Quantile 90 - Pinball Loss: 0.0544
+
+Proyección VAR (5 pasos):
+        realgdp     realcons      realinv
+0  13125.838286  9306.863254  1535.252623
+1  13239.517316  9337.063706  1591.423371
+2  13351.913616  9382.360057  1642.938958
+3  13448.511499  9417.321194  1688.404952
+4  13534.581458  9451.962722  1726.159206
+
+Tiempo total de ejecución: 83.06 segundos
+(django_projects) alejandro@MacBook-Pro-de-Ruben actividad2_modulo5 % 

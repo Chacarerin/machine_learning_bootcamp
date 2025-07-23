@@ -1,0 +1,21 @@
+/Bootcamp Machine Learning/Actividades clases/Modulo 5/activi
+dad1_modulo5/principal.py"
+Cargando datos desde OpenML...
+Se cargaron 48842 filas y 15 columnas
+Entrenando modelo: ElasticNet
+Entrenando modelo: Quantile10
+Entrenando modelo: Quantile50
+Entrenando modelo: Quantile90
+Entrenando modelo: RandomForest
+Entrenando modelo: XGBoost
+
+Evaluación de los modelos
+ElasticNet - RMSE: 0.3920
+Quantile10 - RMSE: 0.4935
+Quantile50 - RMSE: 0.4692
+Quantile90 - RMSE: 0.7240
+RandomForest - Accuracy: 0.8039
+XGBoost - Accuracy: 0.8420
+
+Tiempo total de ejecución: 96.85 segundos
+(django_projects) alejandro@MacBook-Pro-de-Ruben actividad1_modulo5 % 

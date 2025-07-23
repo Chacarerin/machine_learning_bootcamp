@@ -1,0 +1,18 @@
+/Bootcamp Machine Learning/Actividades clases/M
+odulo 5/actividad5_modulo5/principal.py"
+
+Entrenando modelo: Lasso
+Lasso - RMSE: 0.3859
+
+Entrenando modelo: Ridge
+Ridge - RMSE: 0.3426
+
+Entrenando modelo: ElasticNet
+ElasticNet - RMSE: 0.3632
+
+Resumen de errores RMSE:
+Lasso: 0.3859
+Ridge: 0.3426
+ElasticNet: 0.3632
+
+Tiempo total de ejecución: 0.64 segundos

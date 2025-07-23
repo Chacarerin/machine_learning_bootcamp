@@ -1,0 +1,10 @@
+/Bootcamp Machine Learning/Actividades clases/Modulo 5/actividad3_modulo5/principal.py"
+Entrenando modelo: RandomForest
+RandomForest - Accuracy: 0.8521
+Entrenando modelo: AdaBoost
+AdaBoost - Accuracy: 0.8537
+Entrenando modelo: XGBoost
+XGBoost - Accuracy: 0.8736
+
+Tiempo total de ejecución: 20.02 segundos
+(django_projects) alejandro@MacBook-Pro-de-Ruben actividad3_modulo5 % 

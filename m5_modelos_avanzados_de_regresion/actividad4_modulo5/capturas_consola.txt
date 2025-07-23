@@ -1,0 +1,14 @@
+/Bootcamp Machine Learn
+ing/Actividades clases/Modulo 5/actividad4_modulo5/principal.py"
+
+Evaluando con KFold...
+KFold - Accuracy: 0.8390, Precision: 0.7216, Recall: 0.5707, F1-Score: 0.6373
+
+Evaluando con StratifiedKFold...
+StratifiedKFold - Accuracy: 0.8369, Precision: 0.7214, Recall: 0.5568, F1-Score: 0.6285
+
+Evaluando con LeaveOneOut...
+LeaveOneOut - Accuracy: 0.8340, Precision: 0.7255, Recall: 0.5736, F1-Score: 0.6407
+
+Tiempo total de ejecución: 100.30 segundos
+(django_projects) alejandro@MacBook-Pro-de-Ruben actividad4_modulo5 % 

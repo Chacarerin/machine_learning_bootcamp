@@ -1,0 +1,14 @@
+/Bootcamp Machine Learning/Actividades 
+clases/Modulo 5/AM5_scoring_crediticio/principal.py"
+
+Entrenando modelo Lasso (Regresión Logística L1)...
+Accuracy: 0.8050
+Precision: 0.8400
+Recall: 0.8936
+F1 Score: 0.8660
+AUC: 0.8188
+
+Generando explicaciones SHAP...
+
+Tiempo total de ejecución: 0.42 segundos
+(django_projects) alejandro@MacBook-Pro-de-Ruben AM5_scoring_crediticio % 
