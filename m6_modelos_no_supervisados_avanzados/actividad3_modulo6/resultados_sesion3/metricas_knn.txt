@@ -1,0 +1,36 @@
+# comparacion knn sin pca vs con pca (2 componentes)
+accuracy test sin pca: 0.9211
+accuracy test con pca: 0.8947
+cv(5) promedio sin pca: 0.9600
+cv(5) promedio con pca: 0.9133
+
+reporte clasificacion sin pca:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        12
+           1       0.81      1.00      0.90        13
+           2       1.00      0.77      0.87        13
+
+    accuracy                           0.92        38
+   macro avg       0.94      0.92      0.92        38
+weighted avg       0.94      0.92      0.92        38
+
+reporte clasificacion con pca:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        12
+           1       0.80      0.92      0.86        13
+           2       0.91      0.77      0.83        13
+
+    accuracy                           0.89        38
+   macro avg       0.90      0.90      0.90        38
+weighted avg       0.90      0.89      0.89        38
+
+matriz de confusion sin pca:
+[[12  0  0]
+ [ 0 13  0]
+ [ 0  3 10]]
+matriz de confusion con pca:
+[[12  0  0]
+ [ 0 12  1]
+ [ 0  3 10]]

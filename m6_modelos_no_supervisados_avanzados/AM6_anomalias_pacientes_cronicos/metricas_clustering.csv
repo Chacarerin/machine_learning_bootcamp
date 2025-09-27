@@ -1,0 +1,3 @@
+modelo,n_clusters,porcentaje_ruido,silhouette,davies_bouldin
+dbscan,4,87.36979166666666,0.13063625176415214,1.298902120784252
+hdbscan,0,100.0,,

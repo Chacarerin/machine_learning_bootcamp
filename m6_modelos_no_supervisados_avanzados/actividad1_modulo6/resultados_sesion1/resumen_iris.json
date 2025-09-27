@@ -1,0 +1,15 @@
+{
+  "dataset": "iris",
+  "n_observaciones": 150,
+  "n_variables": 4,
+  "clusters_k2_conteo": {
+    "0": 101,
+    "1": 49
+  },
+  "clusters_k3_conteo": {
+    "0": 71,
+    "1": 49,
+    "2": 30
+  },
+  "nota": "las visualizaciones pca/tsne corresponden a k=3 con linkage ward"
+}

@@ -1,0 +1,22 @@
+{
+  "dataset": "make_moons (n=1000, noise=0.10)",
+  "preprocesamiento": {
+    "scaler": "standardscaler",
+    "pca": 2
+  },
+  "dbscan_mejor": {
+    "eps": 0.3,
+    "min_samples": 10,
+    "silhouette": 0.3835843458053048,
+    "davies_bouldin": 1.0251603445254962
+  },
+  "hdbscan": {
+    "min_cluster_size": 15,
+    "n_clusters_sin_ruido": 2,
+    "silhouette": 0.29521060869734406,
+    "davies_bouldin": 1.9572542661745134
+  },
+  "criterio_ganador": "silhouette valido mas alto; si no, menor davies-bouldin",
+  "ganador": "dbscan",
+  "detalle_ganador": "dbscan con eps=0.3, min_samples=10"
+}

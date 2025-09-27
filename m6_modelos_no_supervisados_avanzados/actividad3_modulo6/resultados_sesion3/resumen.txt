@@ -1,0 +1,9 @@
+actividad sesion 3 – reduccion de dimensionalidad con pca (iris)
+
+observaciones: 150 | variables: 4
+
+preprocesamiento: standardscaler -> pca (2 componentes)
+
+varianza pc1: 0.7296 | varianza pc2: 0.2285 | acumulada: 0.9581
+
+comentario: la proyeccion 2d muestra patrones consistentes con las clases de iris; pca ayuda a visualizar estructura y a reducir ruido para analisis exploratorio.

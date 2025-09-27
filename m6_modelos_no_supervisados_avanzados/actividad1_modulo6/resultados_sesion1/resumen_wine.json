@@ -1,0 +1,15 @@
+{
+  "dataset": "wine",
+  "n_observaciones": 178,
+  "n_variables": 13,
+  "clusters_k2_conteo": {
+    "0": 122,
+    "1": 56
+  },
+  "clusters_k3_conteo": {
+    "0": 58,
+    "1": 56,
+    "2": 64
+  },
+  "nota": "las visualizaciones pca/tsne corresponden a k=3 con linkage ward"
+}

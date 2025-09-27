@@ -1,0 +1,24 @@
+{
+  "dataset": "iris",
+  "n_observaciones": 150,
+  "n_variables": 4,
+  "preprocesamiento": {
+    "scaler": "standardscaler",
+    "pca_componentes": 2
+  },
+  "varianza_explicada": {
+    "pc1": 0.7296244541329989,
+    "pc2": 0.2285076178670176,
+    "acumulada_pc1_pc2": 0.9581320720000165
+  },
+  "archivos_generados": {
+    "png_varianza": "01_varianza_explicada.png",
+    "png_pca_2d": "02_pca_2d.png",
+    "csv_scores": "pca_scores_pc12.csv",
+    "csv_componentes": "pca_componentes_pc12.csv",
+    "txt_interpretacion": "resumen.txt",
+    "json_resumen": "resumen.json",
+    "txt_metricas_knn": "metricas_knn.txt"
+  },
+  "nota": "en iris, dos componentes suelen capturar una fraccion alta de la variabilidad permitiendo visualizar separacion parcial entre clases."
+}
