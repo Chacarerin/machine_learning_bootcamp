@@ -1,0 +1,3 @@
+grupo,precision_macro,recall_macro,f1_macro,soporte
+genero:F,1.0,1.0,1.0,21
+genero:M,1.0,1.0,1.0,29

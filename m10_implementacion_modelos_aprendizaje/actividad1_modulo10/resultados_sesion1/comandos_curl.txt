@@ -1,0 +1,4 @@
+# comandos de prueba (la api debe estar activa con: python app.py)
+curl -X POST -H "Content-Type: application/json" -d @resultados_sesion1/ejemplo_1.json http://127.0.0.1:5000/predict
+curl -X POST -H "Content-Type: application/json" -d @resultados_sesion1/ejemplo_2.json http://127.0.0.1:5000/predict
+curl -X POST -H "Content-Type: application/json" -d @resultados_sesion1/ejemplo_3.json http://127.0.0.1:5000/predict

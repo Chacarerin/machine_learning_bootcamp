@@ -1,0 +1,14 @@
+{
+  "n_total": 15,
+  "n_train": 10,
+  "n_test": 5,
+  "accuracy_test": 0.8,
+  "explicados": [
+    0,
+    1,
+    2
+  ],
+  "modelo": "TF-IDF(1..2) + LogisticRegression(C=2.0)",
+  "lime_num_features": 10,
+  "notas": "Imágenes y HTML de LIME almacenados como lime_doc_*.png / lime_doc_*.html"
+}

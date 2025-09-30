@@ -1,0 +1,19 @@
+{
+  "n_filas": 918,
+  "n_columnas": 12,
+  "target": "heartdisease",
+  "columnas": [
+    "age",
+    "sex",
+    "chestpaintype",
+    "restingbp",
+    "cholesterol",
+    "fastingbs",
+    "restingecg",
+    "maxhr",
+    "exerciseangina",
+    "oldpeak",
+    "st_slope",
+    "heartdisease"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "dataset": "fashion_mnist",
+  "n_train": 60000,
+  "n_test": 10000,
+  "input_shape": [
+    28,
+    28
+  ],
+  "modelo": "flatten -> dense(256, relu) -> dropout(0.2) -> dense(128, tanh) -> dropout(0.2) -> dense(10, softmax)",
+  "combinaciones": [
+    {
+      "loss": "categorical_crossentropy",
+      "optimizer": "adam",
+      "test_accuracy": 0.8634999990463257,
+      "test_loss": 0.38334712386131287,
+      "history": {
+        "accuracy": 0.8633518815040588,
+        "val_accuracy": 0.8701666593551636,
+        "loss": 0.37422165274620056,
+        "val_loss": 0.3506510853767395
+      },
+      "artefactos": {
+        "curvas_png": "curvas_categorical_crossentropy_adam.png",
+        "reporte_txt": "reporte_categorical_crossentropy_adam.txt"
+      }
+    },
+    {
+      "loss": "categorical_crossentropy",
+      "optimizer": "sgd",
+      "test_accuracy": 0.8258000016212463,
+      "test_loss": 0.4980204999446869,
+      "history": {
+        "accuracy": 0.8172222375869751,
+        "val_accuracy": 0.8333333134651184,
+        "loss": 0.5162842273712158,
+        "val_loss": 0.46325981616973877
+      },
+      "artefactos": {
+        "curvas_png": "curvas_categorical_crossentropy_sgd.png",
+        "reporte_txt": "reporte_categorical_crossentropy_sgd.txt"
+      }
+    },
+    {
+      "loss": "mse",
+      "optimizer": "adam",
+      "test_accuracy": 0.8605999946594238,
+      "test_loss": 0.02023427002131939,
+      "history": {
+        "accuracy": 0.8648518323898315,
+        "val_accuracy": 0.871666669845581,
+        "loss": 0.019624430686235428,
+        "val_loss": 0.01866391859948635
+      },
+      "artefactos": {
+        "curvas_png": "curvas_mse_adam.png",
+        "reporte_txt": "reporte_mse_adam.txt"
+      }
+    },
+    {
+      "loss": "mse",
+      "optimizer": "sgd",
+      "test_accuracy": 0.6563000082969666,
+      "test_loss": 0.05087173357605934,
+      "history": {
+        "accuracy": 0.5970370173454285,
+        "val_accuracy": 0.6738333106040955,
+        "loss": 0.05626527965068817,
+        "val_loss": 0.04972612485289574
+      },
+      "artefactos": {
+        "curvas_png": "curvas_mse_sgd.png",
+        "reporte_txt": "reporte_mse_sgd.txt"
+      }
+    }
+  ],
+  "mejor": {
+    "loss": "categorical_crossentropy",
+    "optimizer": "adam",
+    "test_accuracy": 0.8634999990463257,
+    "test_loss": 0.38334712386131287,
+    "history": {
+      "accuracy": 0.8633518815040588,
+      "val_accuracy": 0.8701666593551636,
+      "loss": 0.37422165274620056,
+      "val_loss": 0.3506510853767395
+    },
+    "artefactos": {
+      "curvas_png": "curvas_categorical_crossentropy_adam.png",
+      "reporte_txt": "reporte_categorical_crossentropy_adam.txt"
+    }
+  },
+  "criterio_mejora": "max test_accuracy"
+}

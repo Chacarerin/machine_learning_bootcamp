@@ -1,0 +1,4 @@
+parte b – gan basica para mnist
+iteraciones: 3000
+batch_size: 128
+graficos: gan_curvas.png y gan_iter_*.png

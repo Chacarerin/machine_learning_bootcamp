@@ -1,0 +1,147 @@
+{
+  "spacy_activado": false,
+  "n_docs": 10,
+  "ngram_max": 2,
+  "k_top": 10,
+  "estadisticas": {
+    "original": {
+      "n_docs": 10,
+      "tokens_totales": 138,
+      "longitud_media_doc": 13.8,
+      "vocabulario": 97,
+      "type_token_ratio": 0.7028985507246377,
+      "top_15": [
+        [
+          "años",
+          10
+        ],
+        [
+          "y",
+          9
+        ],
+        [
+          "se",
+          6
+        ],
+        [
+          "paciente",
+          4
+        ],
+        [
+          "dolor",
+          4
+        ],
+        [
+          "de",
+          4
+        ],
+        [
+          "sin",
+          3
+        ],
+        [
+          "fiebre",
+          2
+        ],
+        [
+          "leve",
+          2
+        ],
+        [
+          "con",
+          2
+        ],
+        [
+          "indica",
+          2
+        ],
+        [
+          "mujer",
+          2
+        ],
+        [
+          "control",
+          2
+        ],
+        [
+          "neurológico",
+          2
+        ],
+        [
+          "hombre",
+          2
+        ]
+      ]
+    },
+    "preprocesado": {
+      "n_docs": 10,
+      "tokens_totales": 99,
+      "longitud_media_doc": 9.9,
+      "vocabulario": 77,
+      "type_token_ratio": 0.7777777777777778,
+      "top_15": [
+        [
+          "años",
+          10
+        ],
+        [
+          "paciente",
+          4
+        ],
+        [
+          "dolor",
+          4
+        ],
+        [
+          "fiebre",
+          2
+        ],
+        [
+          "leve",
+          2
+        ],
+        [
+          "indica",
+          2
+        ],
+        [
+          "mujer",
+          2
+        ],
+        [
+          "control",
+          2
+        ],
+        [
+          "neurológico",
+          2
+        ],
+        [
+          "hombre",
+          2
+        ],
+        [
+          "masculino",
+          1
+        ],
+        [
+          "presenta",
+          1
+        ],
+        [
+          "congestión",
+          1
+        ],
+        [
+          "nasal",
+          1
+        ],
+        [
+          "sospecha",
+          1
+        ]
+      ]
+    }
+  },
+  "nota": "Se usó spaCy si estaba disponible; de lo contrario, fallback con NLTK/regex."
+}

@@ -1,0 +1,14 @@
+actividad sesion 2 – rnn (lstm) y gan
+
+parte a – imdb:
+- test_accuracy: 0.7580
+- test_loss: 0.5547
+- matriz_confusion: {'tn': 9742, 'fp': 2758, 'fn': 3291, 'tp': 9209}
+graficos: imdb_curvas.png, imdb_matriz_confusion.png
+
+parte b – gan mnist:
+- iteraciones: 3000
+- batch_size: 128
+graficos: gan_curvas.png y gan_iter_*.png
+
+nota: esta actividad usa tf.keras.datasets (imdb, mnist) y guarda todos los resultados en 'resultados_sesion2/'.

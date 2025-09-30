@@ -1,0 +1,10 @@
+credit_amount > 0.33: 0.0370
+num_dependents <= -0.44: -0.0318
+residence_since <= -0.76: -0.0295
+0.44 < installment_commitment <= 0.91: 0.0285
+age <= -0.83: -0.0216
+purpose_other <= 0.00: -0.0185
+existing_credits <= -0.72: -0.0155
+credit_history_critical/other existing credit <= 0.00: -0.0153
+0.74 < personal_status_male single <= 1.00: 0.0151
+foreign_worker_no <= 0.00: -0.0142

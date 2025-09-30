@@ -1,0 +1,135 @@
+{
+  "docs_limpios": [
+    "paciente masculino años presenta fiebre leve y congestión nasal se sospecha infección viral",
+    "paciente femenina años dolor abdominal persistente sin fiebre con historial de gastritis",
+    "varón años tos seca disnea leve saturación se indica radiografía de tórax y pruebas covid",
+    "mujer años cefalea intensa y fotofobia se sugiere hidratación y control neurológico",
+    "paciente años con hipertensión y diabetes control irregular de glicemia fatiga y poliuria",
+    "hombre años dolor torácico no irradiado ecg sin cambios se descarta síndrome coronario agudo",
+    "niña años otalgia derecha membrana timpánica eritematosa se inicia amoxicilina",
+    "mujer años dolor lumbar mecánico sin déficit neurológico se indica reposo y aines",
+    "paciente años náuseas y vómitos postprandiales prueba positiva para helicobacter pylori",
+    "hombre años esguince de tobillo tras actividad deportiva edema y dolor a la palpación"
+  ],
+  "tokens": [
+    [
+      "paciente",
+      "masculino",
+      "años",
+      "presenta",
+      "fiebre",
+      "leve",
+      "congestión",
+      "nasal",
+      "sospecha",
+      "infección",
+      "viral"
+    ],
+    [
+      "paciente",
+      "femenina",
+      "años",
+      "dolor",
+      "abdominal",
+      "persistente",
+      "fiebre",
+      "historial",
+      "gastritis"
+    ],
+    [
+      "varón",
+      "años",
+      "tos",
+      "seca",
+      "disnea",
+      "leve",
+      "saturación",
+      "indica",
+      "radiografía",
+      "tórax",
+      "pruebas",
+      "covid"
+    ],
+    [
+      "mujer",
+      "años",
+      "cefalea",
+      "intensa",
+      "fotofobia",
+      "sugiere",
+      "hidratación",
+      "control",
+      "neurológico"
+    ],
+    [
+      "paciente",
+      "años",
+      "hipertensión",
+      "diabetes",
+      "control",
+      "irregular",
+      "glicemia",
+      "fatiga",
+      "poliuria"
+    ],
+    [
+      "hombre",
+      "años",
+      "dolor",
+      "torácico",
+      "irradiado",
+      "ecg",
+      "cambios",
+      "descarta",
+      "síndrome",
+      "coronario",
+      "agudo"
+    ],
+    [
+      "niña",
+      "años",
+      "otalgia",
+      "derecha",
+      "membrana",
+      "timpánica",
+      "eritematosa",
+      "inicia",
+      "amoxicilina"
+    ],
+    [
+      "mujer",
+      "años",
+      "dolor",
+      "lumbar",
+      "mecánico",
+      "déficit",
+      "neurológico",
+      "indica",
+      "reposo",
+      "aines"
+    ],
+    [
+      "paciente",
+      "años",
+      "náuseas",
+      "vómitos",
+      "postprandiales",
+      "prueba",
+      "positiva",
+      "helicobacter",
+      "pylori"
+    ],
+    [
+      "hombre",
+      "años",
+      "esguince",
+      "tobillo",
+      "tras",
+      "actividad",
+      "deportiva",
+      "edema",
+      "dolor",
+      "palpación"
+    ]
+  ]
+}

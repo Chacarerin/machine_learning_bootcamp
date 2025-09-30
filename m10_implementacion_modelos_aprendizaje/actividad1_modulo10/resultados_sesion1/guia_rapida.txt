@@ -1,0 +1,26 @@
+guia rapida de ejecucion
+1) crear entorno e instalar dependencias:
+   python -m venv .venv
+   source .venv/bin/activate  # mac/linux
+   # .venv\Scripts\activate  # windows
+   pip install flask scikit-learn joblib requests
+
+2) generar artefactos y archivos del proyecto:
+   python principal.py
+
+3) levantar la api:
+   python app.py
+   # disponible en http://127.0.0.1:5000
+
+4) probar el endpoint /predict en otra terminal:
+   python test_api.py
+   # o usar los comandos en resultados_sesion1/comandos_curl.txt
+
+artefactos principales:
+   - resultados_sesion1/modelo.pkl
+   - resultados_sesion1/metricas_entrenamiento.txt
+   - resultados_sesion1/ejemplo_1.json, ejemplo_2.json, ejemplo_3.json
+   - resultados_sesion1/pruebas_respuestas.json
+   - resultados_sesion1/log_pruebas.txt
+   - resultados_sesion1/info_clases.json
+   - resultados_sesion1/comandos_curl.txt

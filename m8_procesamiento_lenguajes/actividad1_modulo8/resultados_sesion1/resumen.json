@@ -1,0 +1,48 @@
+{
+  "n_docs": 10,
+  "ngram_max": 2,
+  "k_top": 10,
+  "documentos_mas_relacionados": {
+    "doc0": {
+      "mas_relacionado": "doc1",
+      "sim": 0.05990498537959299
+    },
+    "doc1": {
+      "mas_relacionado": "doc4",
+      "sim": 0.08365148754946779
+    },
+    "doc2": {
+      "mas_relacionado": "doc7",
+      "sim": 0.07734399736526512
+    },
+    "doc3": {
+      "mas_relacionado": "doc7",
+      "sim": 0.09496548162722956
+    },
+    "doc4": {
+      "mas_relacionado": "doc1",
+      "sim": 0.08365148754946779
+    },
+    "doc5": {
+      "mas_relacionado": "doc7",
+      "sim": 0.08502937875882864
+    },
+    "doc6": {
+      "mas_relacionado": "doc3",
+      "sim": 0.023605110079838777
+    },
+    "doc7": {
+      "mas_relacionado": "doc3",
+      "sim": 0.09496548162722956
+    },
+    "doc8": {
+      "mas_relacionado": "doc4",
+      "sim": 0.028681030401974048
+    },
+    "doc9": {
+      "mas_relacionado": "doc5",
+      "sim": 0.05365002421205165
+    }
+  },
+  "nota": "las figuras 'heatmap_similaridad.png' y 'top_terminos_doc_*.png' ilustran similitudes y términos clave."
+}

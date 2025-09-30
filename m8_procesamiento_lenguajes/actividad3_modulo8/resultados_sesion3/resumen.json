@@ -1,0 +1,18 @@
+{
+  "modelo": "nlptown/bert-base-multilingual-uncased-sentiment",
+  "n_reseñas": 12,
+  "recuento_estrellas": {
+    "1": 1,
+    "2": 4,
+    "3": 1,
+    "4": 2,
+    "5": 4
+  },
+  "recuento_polaridad": {
+    "positivo": 6,
+    "negativo": 5,
+    "neutral": 1
+  },
+  "acuerdo_heuristico": 0.9166666666666666,
+  "nota": "El acuerdo con la heurística es un proxy simple del 'criterio humano'. Sirve para reflexionar sobre sesgos/limitaciones; no es evaluación definitiva."
+}

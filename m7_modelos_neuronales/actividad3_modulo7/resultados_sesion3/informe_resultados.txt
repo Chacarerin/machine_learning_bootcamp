@@ -1,0 +1,7 @@
+actividad sesión 3 — autoencoders
+
+- básico entrenado en 12.6s
+- denoising entrenado en 17.6s
+
+loss test básico bce=0.158899, mse=0.030825
+loss test denoise bce=0.152591, mse=0.029151

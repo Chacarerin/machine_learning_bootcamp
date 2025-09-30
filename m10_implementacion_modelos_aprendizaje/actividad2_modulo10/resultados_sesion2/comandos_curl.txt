@@ -1,0 +1,9 @@
+# la api debe estar arriba (python app.py) o ejecutandose en docker (ver docker_run.txt)
+
+# prueba de salud
+curl http://127.0.0.1:5000/
+
+# prueba de prediccion
+curl -X POST -H "Content-Type: application/json" \
+     -d @resultados_sesion2/ejemplo_predict.json \
+     http://127.0.0.1:5000/predict

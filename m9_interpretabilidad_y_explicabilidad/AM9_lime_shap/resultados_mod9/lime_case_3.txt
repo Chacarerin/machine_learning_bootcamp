@@ -1,0 +1,10 @@
+0.00 < st_slope_Up <= 1.00: -0.2142
+chestpaintype_ASY <= 0.00: -0.1454
+st_slope_Flat <= 0.00: -0.1447
+cholesterol <= -0.21: 0.0856
+sex_F <= 0.00: 0.0744
+0.00 < exerciseangina_N <= 1.00: -0.0621
+fastingbs <= -0.54: -0.0616
+maxhr <= -0.70: 0.0610
+exerciseangina_Y <= 0.00: -0.0588
+oldpeak <= -0.82: -0.0496

@@ -1,0 +1,6 @@
+{
+  "loss_bce_basico": 0.15889863669872284,
+  "loss_mse_basico": 0.030824750661849976,
+  "loss_bce_denoise": 0.1525908261537552,
+  "loss_mse_denoise": 0.029150664806365967
+}

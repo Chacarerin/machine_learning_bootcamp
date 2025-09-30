@@ -1,0 +1,36 @@
+{
+  "actividad": "sesion 2 – rnn (imdb) + gan (mnist)",
+  "parte_a": {
+    "parte": "A",
+    "modelo": "embedding -> lstm(64) -> dense(1, sigmoid)",
+    "test_loss": 0.5546707510948181,
+    "test_accuracy": 0.7580400109291077,
+    "matriz_confusion": {
+      "tn": 9742,
+      "fp": 2758,
+      "fn": 3291,
+      "tp": 9209
+    },
+    "notas": "maxlen=200; embedding_dim=64; lstm_units=64; optimizador=adam; loss=binary_crossentropy"
+  },
+  "parte_b": {
+    "parte": "B",
+    "arquitectura": {
+      "generador": "dense(256,relu)->dense(512,relu)->dense(784,tanh)->reshape(28,28,1)",
+      "discriminador": "flatten->dense(512,relu)->dense(256,relu)->dense(1,sigmoid)"
+    },
+    "iteraciones": 3000,
+    "batch_size": 128,
+    "guardar_cada": 500,
+    "archivos_muestras": [
+      "gan_iter_0001.png",
+      "gan_iter_0500.png",
+      "gan_iter_1000.png",
+      "gan_iter_1500.png",
+      "gan_iter_2000.png",
+      "gan_iter_2500.png",
+      "gan_iter_3000.png"
+    ],
+    "notas": "las imagenes generadas se guardan periodicamente; inspeccionar visualmente para ver cuando comienzan a parecer digitos."
+  }
+}

@@ -1,0 +1,7 @@
+actividad sesion 1 – clasificador denso (fashion mnist)
+
+mejor combinacion: loss=categorical_crossentropy, opt=adam
+test_accuracy: 0.8635
+test_loss: 0.3833
+
+nota: las curvas y reportes por combinacion se guardan en archivos separados.

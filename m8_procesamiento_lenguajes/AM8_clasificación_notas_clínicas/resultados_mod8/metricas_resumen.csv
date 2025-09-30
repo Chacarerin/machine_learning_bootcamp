@@ -1,0 +1,2 @@
+modelo,precision_macro,recall_macro,f1_macro
+naive_bayes_tfidf,1.0,1.0,1.0

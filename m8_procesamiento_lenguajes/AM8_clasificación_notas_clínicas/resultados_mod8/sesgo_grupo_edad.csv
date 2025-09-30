@@ -1,0 +1,5 @@
+grupo,precision_macro,recall_macro,f1_macro,soporte
+grupo_edad:<=29,1.0,1.0,1.0,9
+grupo_edad:30-44,1.0,1.0,1.0,12
+grupo_edad:45-64,1.0,1.0,1.0,10
+grupo_edad:65+,1.0,1.0,1.0,19

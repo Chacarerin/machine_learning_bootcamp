@@ -1,0 +1,97 @@
+{
+  "n_total": 15,
+  "n_train": 10,
+  "n_test": 5,
+  "accuracy_test": 0.8,
+  "explicaciones_indices": [
+    0,
+    1,
+    2
+  ],
+  "comparaciones_top": {
+    "doc_0": {
+      "lime_top": [
+        "Proceso",
+        "simple",
+        "y",
+        "eficiente",
+        "recomendado"
+      ],
+      "shap_top": [
+        "recomendado",
+        "eficiente,",
+        "y",
+        "simple",
+        "Proceso"
+      ],
+      "interseccion": [
+        "Proceso",
+        "recomendado",
+        "simple",
+        "y"
+      ]
+    },
+    "doc_1": {
+      "lime_top": [
+        "El",
+        "demasiado",
+        "fue",
+        "amable",
+        "personal",
+        "tardaron",
+        "pero"
+      ],
+      "shap_top": [
+        "El",
+        "demasiado",
+        "fue",
+        "tardaron",
+        "pero",
+        "amable",
+        "personal"
+      ],
+      "interseccion": [
+        "El",
+        "amable",
+        "demasiado",
+        "fue",
+        "pero",
+        "personal",
+        "tardaron"
+      ]
+    },
+    "doc_2": {
+      "lime_top": [
+        "de",
+        "No",
+        "volveré",
+        "tiempo",
+        "trato",
+        "largo",
+        "y",
+        "impersonal"
+      ],
+      "shap_top": [
+        "de",
+        "No",
+        "espera",
+        "tiempo",
+        "largo",
+        "y",
+        "impersonal",
+        "trato"
+      ],
+      "interseccion": [
+        "No",
+        "de",
+        "impersonal",
+        "largo",
+        "tiempo",
+        "trato",
+        "y"
+      ]
+    }
+  },
+  "modelo": "TF-IDF(1..2) + LogisticRegression(C=2.0)",
+  "notas": "Se guardan LIME (PNG/HTML) y SHAP (bar/waterfall + HTML)."
+}

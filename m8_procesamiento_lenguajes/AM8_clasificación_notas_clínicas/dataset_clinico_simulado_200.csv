@@ -1,0 +1,201 @@
+texto_clinico,edad,genero,afeccion,gravedad
+El paciente presenta síntomas leves como dolor de cabeza y dificultad respiratoria.,43,M,resfriado común,leve
+Consulta por hipertensión leve sin signos de alarma.,34,F,hipertensión leve,leve
+"Evolución rápida del cuadro clínico, compatible con infarto agudo de miocardio.",34,M,infarto agudo de miocardio,severo
+El paciente presenta síntomas leves como tos y fatiga.,58,M,gastroenteritis,leve
+"El cuadro clínico indica asma, con síntomas como tos y fiebre.",45,M,asma,moderado
+"Evolución rápida del cuadro clínico, compatible con neumonía.",57,M,neumonía,severo
+"El cuadro clínico indica migraña, con síntomas como fatiga y dolor de cabeza.",69,M,migraña,moderado
+"Evolución rápida del cuadro clínico, compatible con neumonía.",81,M,neumonía,severo
+"Se observa un patrón consistente con dolor lumbar, requiere seguimiento.",29,F,dolor lumbar,moderado
+No se observan complicaciones severas. Se recomienda hidratación oral.,27,F,hipertensión leve,leve
+El paciente presenta síntomas leves como náuseas y dificultad respiratoria.,50,F,gastroenteritis,leve
+"Se observa un patrón consistente con asma, requiere seguimiento.",66,M,asma,moderado
+El paciente presenta síntomas leves como náuseas y fiebre.,56,F,resfriado común,leve
+"El paciente muestra signos severos como náuseas y dificultad respiratoria, requiere hospitalización.",78,M,infarto agudo de miocardio,severo
+"Evolución rápida del cuadro clínico, compatible con neumonía.",44,F,neumonía,severo
+"El paciente ha tenido 4 días de malestar, incluyendo dolor abdominal.",43,F,asma,moderado
+"Se observa un patrón consistente con dolor lumbar, requiere seguimiento.",52,M,dolor lumbar,moderado
+Consulta por hipertensión leve sin signos de alarma.,48,F,hipertensión leve,leve
+El paciente presenta síntomas leves como dolor torácico y dolor de cabeza.,72,F,gastroenteritis,leve
+No se observan complicaciones severas. Se recomienda reposo domiciliario.,25,F,resfriado común,leve
+"Se observa un patrón consistente con diabetes tipo 2, requiere seguimiento.",67,M,diabetes tipo 2,moderado
+El paciente presenta síntomas leves como náuseas y fiebre.,28,F,hipertensión leve,leve
+"El paciente ha tenido 7 días de malestar, incluyendo mareos.",24,F,bronquitis,moderado
+Consulta por hipertensión leve sin signos de alarma.,23,F,hipertensión leve,leve
+No se observan complicaciones severas. Se recomienda hidratación oral.,45,F,gastroenteritis,leve
+El paciente presenta síntomas leves como náuseas y tos.,45,M,resfriado común,leve
+No se observan complicaciones severas. Se recomienda reposo domiciliario.,50,F,hipertensión leve,leve
+"Evolución rápida del cuadro clínico, compatible con neumonía.",80,M,neumonía,severo
+"El cuadro clínico indica bronquitis, con síntomas como náuseas y dolor torácico.",68,F,bronquitis,moderado
+"El paciente ha tenido 8 días de malestar, incluyendo tos.",42,F,dolor lumbar,moderado
+"El paciente ha tenido 3 días de malestar, incluyendo tos.",48,F,migraña,moderado
+"El cuadro clínico indica migraña, con síntomas como fatiga y dolor de cabeza.",45,F,migraña,moderado
+"Se observa un patrón consistente con diabetes tipo 2, requiere seguimiento.",67,M,diabetes tipo 2,moderado
+No se observan complicaciones severas. Se recomienda control médico ambulatorio.,44,F,resfriado común,leve
+"El paciente ha tenido 9 días de malestar, incluyendo dificultad respiratoria.",43,M,bronquitis,moderado
+"El paciente muestra signos severos como tos y dolor torácico, requiere hospitalización.",29,F,fractura de muñeca,severo
+"El paciente ha tenido 6 días de malestar, incluyendo fiebre.",18,F,dolor lumbar,moderado
+"El paciente ha tenido 4 días de malestar, incluyendo tos.",68,F,dolor lumbar,moderado
+"Se observa un patrón consistente con migraña, requiere seguimiento.",39,M,migraña,moderado
+"El paciente muestra signos severos como mareos y dolor de cabeza, requiere hospitalización.",20,M,fractura de muñeca,severo
+"El paciente ha tenido 3 días de malestar, incluyendo tos.",45,F,dolor lumbar,moderado
+El paciente presenta síntomas leves como dolor de cabeza y dificultad respiratoria.,28,F,gastroenteritis,leve
+No se observan complicaciones severas. Se recomienda control médico ambulatorio.,19,F,gastroenteritis,leve
+"Evolución rápida del cuadro clínico, compatible con insuficiencia renal aguda.",49,M,insuficiencia renal aguda,severo
+Consulta por hipertensión leve sin signos de alarma.,49,F,hipertensión leve,leve
+"El cuadro clínico indica asma, con síntomas como náuseas y dolor abdominal.",61,F,asma,moderado
+"El cuadro clínico indica asma, con síntomas como tos y dificultad respiratoria.",37,M,asma,moderado
+"Urgencia médica por fatiga, asociado a fractura de muñeca crítica.",51,M,fractura de muñeca,severo
+"Evolución rápida del cuadro clínico, compatible con fractura de muñeca.",22,F,fractura de muñeca,severo
+"El paciente muestra signos severos como tos y fatiga, requiere hospitalización.",45,F,insuficiencia renal aguda,severo
+"Urgencia médica por mareos, asociado a infarto agudo de miocardio crítica.",81,M,infarto agudo de miocardio,severo
+"Evolución rápida del cuadro clínico, compatible con insuficiencia renal aguda.",75,F,insuficiencia renal aguda,severo
+"El cuadro clínico indica bronquitis, con síntomas como dolor de cabeza y náuseas.",30,M,bronquitis,moderado
+El paciente presenta síntomas leves como dolor abdominal y tos.,47,F,resfriado común,leve
+El paciente presenta síntomas leves como tos y mareos.,49,F,resfriado común,leve
+"Se observa un patrón consistente con bronquitis, requiere seguimiento.",41,M,bronquitis,moderado
+"Se observa un patrón consistente con asma, requiere seguimiento.",74,F,asma,moderado
+"El paciente muestra signos severos como fatiga y tos, requiere hospitalización.",34,M,insuficiencia renal aguda,severo
+"Urgencia médica por dificultad respiratoria, asociado a neumonía crítica.",29,F,neumonía,severo
+"El paciente ha tenido 10 días de malestar, incluyendo dificultad respiratoria.",42,F,dolor lumbar,moderado
+"El paciente ha tenido 3 días de malestar, incluyendo dolor abdominal.",19,F,migraña,moderado
+El paciente presenta síntomas leves como fiebre y dolor de cabeza.,40,F,gastroenteritis,leve
+"Se observa un patrón consistente con bronquitis, requiere seguimiento.",82,M,bronquitis,moderado
+"Evolución rápida del cuadro clínico, compatible con infarto agudo de miocardio.",37,M,infarto agudo de miocardio,severo
+No se observan complicaciones severas. Se recomienda control médico ambulatorio.,23,F,gastroenteritis,leve
+No se observan complicaciones severas. Se recomienda reposo domiciliario.,18,F,hipertensión leve,leve
+"El cuadro clínico indica bronquitis, con síntomas como dificultad respiratoria y dolor torácico.",20,F,bronquitis,moderado
+Consulta por resfriado común sin signos de alarma.,20,M,resfriado común,leve
+"El cuadro clínico indica diabetes tipo 2, con síntomas como náuseas y fatiga.",46,F,diabetes tipo 2,moderado
+"El paciente muestra signos severos como tos y dificultad respiratoria, requiere hospitalización.",35,F,infarto agudo de miocardio,severo
+"El paciente ha tenido 6 días de malestar, incluyendo tos.",42,F,bronquitis,moderado
+"Se observa un patrón consistente con dolor lumbar, requiere seguimiento.",82,M,dolor lumbar,moderado
+"Se observa un patrón consistente con dolor lumbar, requiere seguimiento.",50,M,dolor lumbar,moderado
+"Se observa un patrón consistente con diabetes tipo 2, requiere seguimiento.",35,F,diabetes tipo 2,moderado
+"El paciente muestra signos severos como dolor torácico y dificultad respiratoria, requiere hospitalización.",80,M,neumonía,severo
+"El cuadro clínico indica dolor lumbar, con síntomas como fatiga y dolor de cabeza.",73,M,dolor lumbar,moderado
+"Urgencia médica por dolor de cabeza, asociado a fractura de muñeca crítica.",47,M,fractura de muñeca,severo
+"El cuadro clínico indica asma, con síntomas como fiebre y dolor abdominal.",45,F,asma,moderado
+"Urgencia médica por dificultad respiratoria, asociado a infarto agudo de miocardio crítica.",20,M,infarto agudo de miocardio,severo
+"Evolución rápida del cuadro clínico, compatible con fractura de muñeca.",54,M,fractura de muñeca,severo
+No se observan complicaciones severas. Se recomienda control médico ambulatorio.,35,M,resfriado común,leve
+"El cuadro clínico indica diabetes tipo 2, con síntomas como dolor de cabeza y dolor torácico.",85,M,diabetes tipo 2,moderado
+"El cuadro clínico indica bronquitis, con síntomas como náuseas y fatiga.",36,F,bronquitis,moderado
+"El paciente ha tenido 3 días de malestar, incluyendo mareos.",23,F,migraña,moderado
+"Evolución rápida del cuadro clínico, compatible con infarto agudo de miocardio.",24,M,infarto agudo de miocardio,severo
+"El paciente muestra signos severos como mareos y dolor torácico, requiere hospitalización.",51,M,infarto agudo de miocardio,severo
+"Evolución rápida del cuadro clínico, compatible con infarto agudo de miocardio.",60,F,infarto agudo de miocardio,severo
+No se observan complicaciones severas. Se recomienda control médico ambulatorio.,80,M,gastroenteritis,leve
+"El paciente muestra signos severos como dolor torácico y mareos, requiere hospitalización.",24,F,insuficiencia renal aguda,severo
+"Evolución rápida del cuadro clínico, compatible con infarto agudo de miocardio.",54,M,infarto agudo de miocardio,severo
+"Urgencia médica por tos, asociado a neumonía crítica.",36,M,neumonía,severo
+"El cuadro clínico indica diabetes tipo 2, con síntomas como fatiga y fiebre.",48,F,diabetes tipo 2,moderado
+No se observan complicaciones severas. Se recomienda hidratación oral.,25,F,gastroenteritis,leve
+"El cuadro clínico indica dolor lumbar, con síntomas como dificultad respiratoria y fatiga.",58,F,dolor lumbar,moderado
+"El paciente muestra signos severos como dolor abdominal y dolor torácico, requiere hospitalización.",38,M,infarto agudo de miocardio,severo
+No se observan complicaciones severas. Se recomienda reposo domiciliario.,82,M,hipertensión leve,leve
+"Se observa un patrón consistente con bronquitis, requiere seguimiento.",55,F,bronquitis,moderado
+Consulta por resfriado común sin signos de alarma.,49,M,resfriado común,leve
+No se observan complicaciones severas. Se recomienda hidratación oral.,23,F,gastroenteritis,leve
+"Evolución rápida del cuadro clínico, compatible con neumonía.",37,F,neumonía,severo
+"Evolución rápida del cuadro clínico, compatible con insuficiencia renal aguda.",34,M,insuficiencia renal aguda,severo
+"Urgencia médica por tos, asociado a fractura de muñeca crítica.",75,F,fractura de muñeca,severo
+"El paciente muestra signos severos como dificultad respiratoria y tos, requiere hospitalización.",26,M,insuficiencia renal aguda,severo
+El paciente presenta síntomas leves como fiebre y mareos.,44,F,hipertensión leve,leve
+No se observan complicaciones severas. Se recomienda hidratación oral.,38,F,resfriado común,leve
+Consulta por resfriado común sin signos de alarma.,54,M,resfriado común,leve
+Consulta por resfriado común sin signos de alarma.,38,F,resfriado común,leve
+"Urgencia médica por dolor abdominal, asociado a infarto agudo de miocardio crítica.",58,M,infarto agudo de miocardio,severo
+"El paciente muestra signos severos como dolor torácico y fatiga, requiere hospitalización.",80,M,neumonía,severo
+"El paciente ha tenido 7 días de malestar, incluyendo dolor abdominal.",21,F,dolor lumbar,moderado
+El paciente presenta síntomas leves como dolor torácico y dolor de cabeza.,60,F,gastroenteritis,leve
+"Evolución rápida del cuadro clínico, compatible con insuficiencia renal aguda.",40,M,insuficiencia renal aguda,severo
+"Se observa un patrón consistente con dolor lumbar, requiere seguimiento.",79,F,dolor lumbar,moderado
+"Urgencia médica por mareos, asociado a insuficiencia renal aguda crítica.",21,F,insuficiencia renal aguda,severo
+"Se observa un patrón consistente con migraña, requiere seguimiento.",18,F,migraña,moderado
+"Evolución rápida del cuadro clínico, compatible con insuficiencia renal aguda.",41,M,insuficiencia renal aguda,severo
+No se observan complicaciones severas. Se recomienda control médico ambulatorio.,23,M,hipertensión leve,leve
+El paciente presenta síntomas leves como fatiga y dolor abdominal.,85,F,hipertensión leve,leve
+"El paciente ha tenido 7 días de malestar, incluyendo tos.",23,M,diabetes tipo 2,moderado
+"Se observa un patrón consistente con migraña, requiere seguimiento.",34,M,migraña,moderado
+"Se observa un patrón consistente con bronquitis, requiere seguimiento.",26,F,bronquitis,moderado
+Consulta por gastroenteritis sin signos de alarma.,18,M,gastroenteritis,leve
+"Se observa un patrón consistente con asma, requiere seguimiento.",84,F,asma,moderado
+Consulta por gastroenteritis sin signos de alarma.,53,M,gastroenteritis,leve
+El paciente presenta síntomas leves como mareos y náuseas.,73,M,gastroenteritis,leve
+"El cuadro clínico indica dolor lumbar, con síntomas como dolor de cabeza y fiebre.",21,M,dolor lumbar,moderado
+"El paciente muestra signos severos como dolor de cabeza y tos, requiere hospitalización.",28,F,infarto agudo de miocardio,severo
+"El paciente muestra signos severos como dolor de cabeza y tos, requiere hospitalización.",37,F,insuficiencia renal aguda,severo
+No se observan complicaciones severas. Se recomienda reposo domiciliario.,40,M,hipertensión leve,leve
+"El paciente ha tenido 7 días de malestar, incluyendo dolor torácico.",42,M,diabetes tipo 2,moderado
+El paciente presenta síntomas leves como mareos y fiebre.,42,M,gastroenteritis,leve
+"El paciente ha tenido 10 días de malestar, incluyendo tos.",67,M,dolor lumbar,moderado
+"El paciente ha tenido 7 días de malestar, incluyendo fatiga.",71,M,migraña,moderado
+"Urgencia médica por dolor abdominal, asociado a fractura de muñeca crítica.",39,F,fractura de muñeca,severo
+"El paciente muestra signos severos como dolor abdominal y dificultad respiratoria, requiere hospitalización.",33,M,fractura de muñeca,severo
+"Urgencia médica por fiebre, asociado a infarto agudo de miocardio crítica.",23,F,infarto agudo de miocardio,severo
+"Urgencia médica por fatiga, asociado a neumonía crítica.",49,M,neumonía,severo
+"Se observa un patrón consistente con migraña, requiere seguimiento.",41,F,migraña,moderado
+"Urgencia médica por dolor abdominal, asociado a infarto agudo de miocardio crítica.",73,M,infarto agudo de miocardio,severo
+"Evolución rápida del cuadro clínico, compatible con neumonía.",75,M,neumonía,severo
+"Se observa un patrón consistente con diabetes tipo 2, requiere seguimiento.",68,M,diabetes tipo 2,moderado
+"El paciente muestra signos severos como fiebre y dolor de cabeza, requiere hospitalización.",80,M,neumonía,severo
+"El paciente muestra signos severos como fiebre y dolor abdominal, requiere hospitalización.",58,F,insuficiencia renal aguda,severo
+"Se observa un patrón consistente con asma, requiere seguimiento.",72,M,asma,moderado
+No se observan complicaciones severas. Se recomienda control médico ambulatorio.,34,M,gastroenteritis,leve
+Consulta por resfriado común sin signos de alarma.,24,M,resfriado común,leve
+"El cuadro clínico indica diabetes tipo 2, con síntomas como tos y dolor torácico.",43,F,diabetes tipo 2,moderado
+El paciente presenta síntomas leves como tos y náuseas.,49,F,gastroenteritis,leve
+El paciente presenta síntomas leves como dolor abdominal y náuseas.,51,F,resfriado común,leve
+No se observan complicaciones severas. Se recomienda hidratación oral.,56,M,resfriado común,leve
+"El paciente muestra signos severos como dificultad respiratoria y mareos, requiere hospitalización.",52,M,infarto agudo de miocardio,severo
+"Evolución rápida del cuadro clínico, compatible con infarto agudo de miocardio.",58,M,infarto agudo de miocardio,severo
+"El paciente muestra signos severos como fiebre y dolor torácico, requiere hospitalización.",69,F,fractura de muñeca,severo
+"Se observa un patrón consistente con dolor lumbar, requiere seguimiento.",52,F,dolor lumbar,moderado
+"El paciente ha tenido 9 días de malestar, incluyendo náuseas.",72,F,asma,moderado
+No se observan complicaciones severas. Se recomienda control médico ambulatorio.,52,F,hipertensión leve,leve
+"El cuadro clínico indica migraña, con síntomas como dolor torácico y dolor abdominal.",40,M,migraña,moderado
+Consulta por hipertensión leve sin signos de alarma.,41,M,hipertensión leve,leve
+"Urgencia médica por tos, asociado a insuficiencia renal aguda crítica.",80,M,insuficiencia renal aguda,severo
+"El cuadro clínico indica diabetes tipo 2, con síntomas como náuseas y dolor torácico.",34,M,diabetes tipo 2,moderado
+"El paciente ha tenido 7 días de malestar, incluyendo dolor abdominal.",47,F,diabetes tipo 2,moderado
+El paciente presenta síntomas leves como náuseas y dolor abdominal.,56,M,resfriado común,leve
+No se observan complicaciones severas. Se recomienda reposo domiciliario.,53,M,resfriado común,leve
+"El cuadro clínico indica migraña, con síntomas como fiebre y fatiga.",37,M,migraña,moderado
+"El paciente ha tenido 4 días de malestar, incluyendo dolor de cabeza.",68,M,asma,moderado
+"Evolución rápida del cuadro clínico, compatible con infarto agudo de miocardio.",35,M,infarto agudo de miocardio,severo
+"Se observa un patrón consistente con bronquitis, requiere seguimiento.",69,F,bronquitis,moderado
+"El paciente muestra signos severos como tos y mareos, requiere hospitalización.",77,M,neumonía,severo
+"El cuadro clínico indica asma, con síntomas como náuseas y fatiga.",72,M,asma,moderado
+"Urgencia médica por dolor de cabeza, asociado a fractura de muñeca crítica.",18,M,fractura de muñeca,severo
+"El paciente ha tenido 3 días de malestar, incluyendo dolor torácico.",27,F,bronquitis,moderado
+"El cuadro clínico indica diabetes tipo 2, con síntomas como dolor abdominal y fiebre.",80,M,diabetes tipo 2,moderado
+"Urgencia médica por dolor de cabeza, asociado a insuficiencia renal aguda crítica.",50,F,insuficiencia renal aguda,severo
+"El paciente ha tenido 6 días de malestar, incluyendo dificultad respiratoria.",34,F,bronquitis,moderado
+"El cuadro clínico indica diabetes tipo 2, con síntomas como fiebre y dificultad respiratoria.",24,M,diabetes tipo 2,moderado
+"El paciente ha tenido 8 días de malestar, incluyendo mareos.",57,M,migraña,moderado
+El paciente presenta síntomas leves como fiebre y dolor de cabeza.,71,M,gastroenteritis,leve
+"Se observa un patrón consistente con diabetes tipo 2, requiere seguimiento.",46,F,diabetes tipo 2,moderado
+"Se observa un patrón consistente con asma, requiere seguimiento.",82,M,asma,moderado
+"El paciente ha tenido 8 días de malestar, incluyendo dolor torácico.",70,F,bronquitis,moderado
+"Se observa un patrón consistente con diabetes tipo 2, requiere seguimiento.",30,M,diabetes tipo 2,moderado
+No se observan complicaciones severas. Se recomienda reposo domiciliario.,58,F,gastroenteritis,leve
+"El cuadro clínico indica dolor lumbar, con síntomas como náuseas y fatiga.",49,F,dolor lumbar,moderado
+No se observan complicaciones severas. Se recomienda hidratación oral.,55,M,gastroenteritis,leve
+"El paciente muestra signos severos como tos y fatiga, requiere hospitalización.",37,F,fractura de muñeca,severo
+"Urgencia médica por fiebre, asociado a infarto agudo de miocardio crítica.",80,F,infarto agudo de miocardio,severo
+"El cuadro clínico indica bronquitis, con síntomas como fiebre y tos.",50,F,bronquitis,moderado
+El paciente presenta síntomas leves como tos y dolor abdominal.,24,M,hipertensión leve,leve
+No se observan complicaciones severas. Se recomienda reposo domiciliario.,22,M,hipertensión leve,leve
+Consulta por resfriado común sin signos de alarma.,80,F,resfriado común,leve
+"Se observa un patrón consistente con bronquitis, requiere seguimiento.",20,F,bronquitis,moderado
+"El cuadro clínico indica dolor lumbar, con síntomas como fiebre y fatiga.",71,F,dolor lumbar,moderado
+"Se observa un patrón consistente con asma, requiere seguimiento.",70,F,asma,moderado
+"Se observa un patrón consistente con asma, requiere seguimiento.",33,F,asma,moderado
+"El cuadro clínico indica bronquitis, con síntomas como náuseas y dificultad respiratoria.",27,F,bronquitis,moderado
+El paciente presenta síntomas leves como náuseas y mareos.,50,F,resfriado común,leve
+"El cuadro clínico indica bronquitis, con síntomas como náuseas y tos.",34,M,bronquitis,moderado
+Consulta por hipertensión leve sin signos de alarma.,34,M,hipertensión leve,leve
+"Se observa un patrón consistente con diabetes tipo 2, requiere seguimiento.",42,M,diabetes tipo 2,moderado
+"Evolución rápida del cuadro clínico, compatible con insuficiencia renal aguda.",45,M,insuficiencia renal aguda,severo

@@ -1,0 +1,5 @@
+parte a – imdb con lstm
+test_accuracy: 0.7580
+test_loss: 0.5547
+matriz_confusion: tn=9742, fp=2758, fn=3291, tp=9209
+graficos: imdb_curvas.png, imdb_matriz_confusion.png

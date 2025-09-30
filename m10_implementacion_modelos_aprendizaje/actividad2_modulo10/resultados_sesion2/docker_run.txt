@@ -1,0 +1,6 @@
+docker build -t ml-api:sesion2 .
+docker run --rm -p 5000:5000 ml-api:sesion2
+
+# luego probar:
+python test_api.py
+# o usar curl desde comandos_curl.txt

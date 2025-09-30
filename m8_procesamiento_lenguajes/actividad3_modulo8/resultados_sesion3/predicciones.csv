@@ -1,0 +1,13 @@
+texto,label_raw,score,stars,polarity,heuristico_polaridad,acuerdo_humano
+"La atención fue excelente, resolvieron mis dudas y el tratamiento fue efectivo.",5 stars,0.5439345836639404,5,positivo,positivo,True
+"Me sentí ignorado por el personal médico, no volvería al centro.",2 stars,0.46818649768829346,2,negativo,negativo,True
+El tiempo de espera fue razonable y el doctor explicó todo con claridad.,4 stars,0.4543575346469879,4,positivo,positivo,True
+"Muy mala experiencia, extraviaron mis exámenes y nadie se hizo responsable.",1 star,0.9284433126449585,1,negativo,negativo,True
+"El equipo de enfermería fue muy amable, salí tranquila y bien informada.",5 stars,0.59090656042099,5,positivo,positivo,True
+Atención correcta pero la sala de espera estaba muy llena y hacía calor.,3 stars,0.621674120426178,3,neutral,negativo,False
+"Tuvieron un trato impersonal y apresurado, me dejaron con más preguntas.",2 stars,0.3719017207622528,2,negativo,negativo,True
+"Todo rápido y ordenado, agradezco la puntualidad y el seguimiento posterior.",5 stars,0.6448615193367004,5,positivo,positivo,True
+"Los costos no fueron transparentes, me cobraron más de lo informado.",2 stars,0.5055439472198486,2,negativo,negativo,True
+Instalaciones limpias y modernas; el procedimiento resultó indoloro.,5 stars,0.4017139673233032,5,positivo,positivo,True
+El médico mostró empatía y se tomó el tiempo para explicar opciones.,4 stars,0.3906376361846924,4,positivo,positivo,True
+"Falta de coordinación en admisión, tuve que repetir datos varias veces.",2 stars,0.5131092667579651,2,negativo,negativo,True

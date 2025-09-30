@@ -1,0 +1,9 @@
+{
+  "modelo_base": "efficientnet",
+  "imagen_size": 224,
+  "batch": 64,
+  "epocas": 10,
+  "fine_tune": false,
+  "test_accuracy": 0.10010000318288803,
+  "test_loss": 2.3011529445648193
+}
