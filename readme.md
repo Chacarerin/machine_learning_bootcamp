@@ -9,6 +9,7 @@ Diseñado para profesionales con conocimientos básicos en ciencia de datos y ap
 ## 🎓 Descripción del Programa
 
 El Bootcamp está dirigido a profesionales con conocimientos fundamentales de aprendizaje de máquina y ciencia de datos. Se proporciona una formación integral que cubre programación, matemáticas aplicadas, optimización de modelos y la implementación de modelos complejos en diferentes dominios.  
+
 Busca preparar a sus participantes para enfrentar desafíos del análisis de datos y desarrollo de modelos predictivos avanzados.  
 
 Los egresados estarán capacitados para desarrollar, optimizar y desplegar modelos de Machine Learning que impulsen decisiones informadas y procesos automatizados en industrias como tecnología, finanzas, salud y manufactura.
@@ -63,7 +64,9 @@ Cada módulo incluye scripts, notebooks, visualizaciones o reportes de resultado
 
 **Módulo 9: Interpretabilidad y Explicabilidad**  
 Este módulo aborda el uso de **SHAP** y **LIME** para otorgar transparencia a modelos complejos.  
-Se aplica un modelo de clasificación sobre un conjunto de datos clínicos, generando explicaciones globales y locales que permiten comprender cómo influyen las variables en las predicciones.  
+
+Se aplica un modelo de clasificación sobre un conjunto de datos clínicos, generando explicaciones globales y locales que permiten comprender cómo influyen las variables en las predicciones.
+
 El análisis confirma consistencia entre ambos métodos interpretativos, fortaleciendo la confianza en el modelo y demostrando la relevancia ética de la interpretabilidad en entornos sensibles.
 
 ---
