@@ -1,4 +1,4 @@
-# 🧠 Bootcamp Machine Learning — Portafolio de Proyectos
+# 🧠 Bootcamp Machine Learning
 
 Este repositorio agrupa las actividades, proyectos y evaluaciones desarrolladas durante el **Bootcamp de Machine Learning (2024–2025)**.  
 
