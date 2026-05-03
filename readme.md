@@ -1,95 +1,32 @@
 # 🧠 Bootcamp Machine Learning
 
-Este repositorio agrupa las actividades, proyectos y evaluaciones desarrolladas durante el **Bootcamp de Machine Learning (2024–2025)**.  
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-Diseñado para profesionales con conocimientos básicos en ciencia de datos y aprendizaje automático, este plan formativo ofrece una base robusta en técnicas avanzadas, optimización de modelos y despliegue en entornos reales.
+Este repositorio agrupa las actividades, proyectos y evaluaciones desarrolladas durante el **Bootcamp de Machine Learning (2024–2025)**. 
 
----
+El objetivo principal es documentar mi progreso de aprendizaje y proveer ejemplos prácticos de diversos algoritmos y técnicas de Inteligencia Artificial.
 
-## 🎓 Descripción del Programa
+## 📚 Estructura de Módulos
 
-El Bootcamp está dirigido a profesionales con conocimientos fundamentales de aprendizaje de máquina y ciencia de datos. Se proporciona una formación integral que cubre programación, matemáticas aplicadas, optimización de modelos y la implementación de modelos complejos en diferentes dominios.  
+El repositorio está organizado en base a los módulos del bootcamp:
 
-Busca preparar a sus participantes para enfrentar desafíos del análisis de datos y desarrollo de modelos predictivos avanzados.  
+### Módulo 3: Matemáticas para Machine Learning
+(`m3_matematicas_para_machine_learning`)
+Conceptos fundamentales de álgebra lineal, cálculo y estadística necesarios para comprender cómo funcionan los algoritmos por debajo de la superficie.
 
-Los egresados estarán capacitados para desarrollar, optimizar y desplegar modelos de Machine Learning que impulsen decisiones informadas y procesos automatizados en industrias como tecnología, finanzas, salud y manufactura.
+### Módulo 4: Optimización de Modelos de Aprendizaje
+(`m4_optimización_modelos_de_aprendizaje`)
+Técnicas de ajuste de hiperparámetros, validación cruzada y evaluación de métricas para mejorar el rendimiento de los modelos predictivos.
 
----
+### Módulo 5: Modelos Avanzados de Regresión
+(`m5_modelos_avanzados_de_regresion`)
+Estudio en profundidad de técnicas de regresión avanzadas, manejo de datos atípicos y selección de características.
 
-## 🎯 Competencia esperada
-
-Implementar modelos predictivos complejos en entornos productivos, asegurando su interpretabilidad, eficiencia y alineación con buenas prácticas industriales, con el fin de resolver problemas reales organizacionales.
-
----
-
-## 📂 Estructura del Repositorio
-
-```
-machine_learning_bootcamp/
-├── m3_matematicas_para_machine_learning/
-├── m4_optimizacion_modelos_de_aprendizaje/
-├── m5_modelos_avanzados_de_regresion/
-├── m6_modelos_no_supervisados_avanzados/
-├── m7_modelos_neuronales/
-├── m8_procesamiento_lenguajes/
-├── m9_interpretabilidad_y_explicabilidad/
-├── m10_implementacion_modelos_aprendizaje/
-```
-
-Cada módulo incluye scripts, notebooks, visualizaciones o reportes de resultados, dependiendo de los requerimientos de cada etapa del programa.
+### Módulo 10: Implementación de Modelos de Aprendizaje
+(`m10_implementacion_modelos_aprendizaje`)
+Despliegue y puesta en marcha de modelos entrenados.
 
 ---
-
-## ⚙️ Tech Stack Utilizado
-
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45" height="45" title="Python"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="45" height="45" title="Jupyter Notebook"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="45" height="45" title="NumPy"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="45" height="45" title="Pandas"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="45" height="45" title="Scikit‑Learn"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" width="45" height="45" title="Keras / TensorFlow"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="45" height="45" title="Matplotlib / Seaborn"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" height="45" title="Git"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="45" height="45" title="GitHub"/>
-</p>
-
-<p align="center">
-  <em>Python · Jupyter · NumPy · Pandas · Scikit‑Learn · Keras/TensorFlow · Matplotlib/Seaborn · Git</em>
-</p>
-
----
-
-## 🧩 Ejemplo destacado
-
-**Módulo 9: Interpretabilidad y Explicabilidad**  
-Este módulo aborda el uso de **SHAP** y **LIME** para otorgar transparencia a modelos complejos.  
-
-Se aplica un modelo de clasificación sobre un conjunto de datos clínicos, generando explicaciones globales y locales que permiten comprender cómo influyen las variables en las predicciones.
-
-El análisis confirma consistencia entre ambos métodos interpretativos, fortaleciendo la confianza en el modelo y demostrando la relevancia ética de la interpretabilidad en entornos sensibles.
-
----
-
-## 🧭 Propósito del Repositorio
-
-Este repositorio funciona como un **portafolio académico y técnico**, demostrando:  
-- Aplicación práctica de métodos de Machine Learning en distintos contextos.  
-- Modularidad en el diseño y coherencia en la documentación.  
-- Reflexiones sobre ética, sesgos y responsabilidad en modelos predictivos.  
-- Integración de buenas prácticas de ingeniería de datos y MLOps.
-
----
-
-## 👤 Autor
-
-**Rubén Schnettler**  
-📍 Viña del Mar, Chile  
-🌐 [rubenschnettler.cl](https://rubenschnettler.cl)  
-✉️ rubenschnettler@gmail.com  
-🐙 [GitHub @Chacarerin](https://github.com/Chacarerin)
-
----
-
-> *“La meta de la inteligencia artificial no es reemplazar la mente humana, sino amplificar su poder para resolver los problemas que importan.”*  
-> — **Satya Nadella**
+*Desarrollado con ❤️ por Rubén Schnettler*
