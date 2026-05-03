@@ -1,15 +1,17 @@
-# Módulo 4: Optimización de Modelos de Aprendizaje
+# ⚙️ Módulo 4: Optimización de Modelos de Aprendizaje
 
-Este módulo profundiza en las técnicas necesarias para maximizar el rendimiento y la generalización de los modelos predictivos, asegurando que no solo ajusten bien a los datos de entrenamiento, sino que sean robustos frente a datos no vistos.
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-## Contenidos Principales
-- **Métricas de Evaluación:** Análisis exhaustivo de Accuracy, Precision, Recall, F1-Score y la Curva ROC/AUC.
-- **Ajuste de Hiperparámetros (Tuning):** Implementación de estrategias de búsqueda algorítmica como Grid Search y Random Search.
-- **Validación de Modelos:** Técnicas de Cross-Validation (K-Fold) para prevenir el sobreajuste (overfitting).
-- **Curvas de Aprendizaje:** Análisis de sesgo y varianza para diagnosticar problemas de rendimiento.
+El objetivo central de este módulo es dotar a los modelos de aprendizaje automático de la capacidad de generalizar correctamente sobre datos no vistos. Se estudian profundamente los dilemas de sesgo-varianza (Bias-Variance Tradeoff) y se aplican técnicas sistemáticas para refinar la precisión algorítmica, previniendo los clásicos problemas de sobreajuste (*Overfitting*) y subajuste (*Underfitting*).
 
-## Aplicación Técnica
-Se utilizan librerías estándar de la industria como Scikit-Learn (`GridSearchCV`, `cross_val_score`) para automatizar el proceso de optimización sobre conjuntos de datos estructurados.
+## 📌 Contenidos Principales
+- **Análisis Exhaustivo de Métricas:** Estudio crítico de indicadores de evaluación (Accuracy, Precision, Recall, F1-Score) y entendimiento de cuándo priorizar falsos positivos vs. falsos negativos.
+- **Validación Cruzada (Cross-Validation):** Implementación de particiones K-Fold para garantizar una evaluación estadística robusta y no sesgada por una partición de prueba particular.
+- **Búsqueda de Hiperparámetros (Tuning):** Optimización automatizada del espacio de hiperparámetros mediante métodos exhaustivos (Grid Search) o probabilísticos (Random Search).
+
+## ⚙️ Tecnologías y Frameworks Aplicados
+- **Scikit-Learn (Sklearn):** Es la biblioteca de Machine Learning más robusta del ecosistema Python clásico. Se emplea intensivamente en este módulo por sus herramientas incorporadas de validación y optimización (`GridSearchCV`, `cross_val_score`), las cuales estandarizan la evaluación de cualquier estimador compatible.
 
 ---
 *Desarrollado por Rubén Schnettler.*

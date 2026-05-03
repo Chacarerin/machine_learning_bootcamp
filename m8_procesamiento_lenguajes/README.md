@@ -1,15 +1,18 @@
-# Módulo 8: Procesamiento de Lenguajes
+# 🗣️ Módulo 8: Procesamiento de Lenguajes
 
-Este módulo aborda el Procesamiento de Lenguaje Natural (NLP), dotando a los modelos de la capacidad de interpretar, analizar y derivar significado a partir de texto no estructurado.
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![NLTK](https://img.shields.io/badge/NLTK-154f5b.svg?style=for-the-badge&logo=python&logoColor=white)
 
-## Contenidos Principales
-- **Preprocesamiento de Texto:** Limpieza, Tokenización, Lematización, Stemming y eliminación de Stopwords.
-- **Representación Vectorial:** Técnicas de Bag of Words (BoW) y TF-IDF.
-- **Embeddings de Palabras:** Conceptos fundamentales de Word2Vec y representaciones densas.
-- **Aplicaciones NLP:** Análisis de sentimiento, clasificación de textos y detección de tópicos.
+El Procesamiento de Lenguaje Natural (NLP) intersecta las matemáticas computacionales con la lingüística teórica. El propósito de esta unidad es dotar a los modelos predictivos de la capacidad cognitiva simulada para interpretar, estructurar y derivar intención a partir de texto crudo (no estructurado).
 
-## Aplicación Técnica
-Uso intensivo de librerías especializadas como NLTK, spaCy y Scikit-Learn para construir pipelines robustos de procesamiento de lenguaje natural.
+## 📌 Contenidos Principales
+- **Normalización Lingüística:** Fases críticas de limpieza semántica, incluyendo la Tokenización, Lematización, Stemming y purga iterativa de Stopwords.
+- **Representaciones Vectoriales Escalares:** Análisis de métodos de conteo como *Bag of Words (BoW)* y la ponderación matemática inversa de frecuencia de documentos (*TF-IDF*), fundamentales para convertir texto en matrices procesables por algoritmos matemáticos.
+- **Incrustaciones Semánticas (Word Embeddings):** Conceptos avanzados sobre la proyección densa del vocabulario (*Word2Vec*), permitiendo capturar relaciones contextuales y sinonimia a través de cálculos vectoriales (ej. Rey - Hombre + Mujer = Reina).
+
+## ⚙️ Tecnologías y Frameworks Aplicados
+- **NLTK (Natural Language Toolkit):** Empleado como suite académica principal para procesamiento de texto simbólico y estadístico.
+- **Scikit-Learn:** Utilizado para extraer características matriciales (*TfidfVectorizer*) y acoplar el texto limpio a algoritmos clasificadores estándar (como *Naive Bayes* o Máquinas de Soporte Vectorial).
 
 ---
 *Desarrollado por Rubén Schnettler.*

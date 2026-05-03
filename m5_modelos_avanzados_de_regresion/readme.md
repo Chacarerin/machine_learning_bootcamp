@@ -1,15 +1,20 @@
-# Módulo 5: Modelos Avanzados de Regresión
+# 📈 Módulo 5: Modelos Avanzados de Regresión
 
-En este módulo se abordan técnicas predictivas aplicadas a variables continuas, superando las limitaciones de la regresión lineal simple mediante modelos más sofisticados y robustos ante conjuntos de datos complejos.
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-## Contenidos Principales
-- **Regresión Múltiple y Polinomial:** Modelado de relaciones no lineales.
-- **Regularización (Ridge, Lasso, Elastic Net):** Penalización de coeficientes para controlar el sobreajuste y realizar selección implícita de características.
-- **Modelos Basados en Árboles:** Implementación de Random Forest Regressor y Gradient Boosting aplicados a tareas de predicción continua.
-- **Manejo de Datos Atípicos:** Detección e impacto de outliers en las estimaciones.
+Este módulo evoluciona la regresión lineal tradicional hacia métodos predictivos avanzados. El enfoque académico se centra en modelar fenómenos continuos complejos, introduciendo el concepto fundamental de la **regularización** matemática para mantener bajo control la varianza del modelo cuando se trata de espacios de características de alta dimensionalidad.
 
-## Aplicación Técnica
-Uso intensivo de Pandas para el preprocesamiento de características y Scikit-Learn para la construcción y evaluación de los modelos de regresión avanzados.
+## 📌 Contenidos Principales
+- **Regresión Polinomial y Espacios No Lineales:** Expansión del espacio de características para capturar relaciones matemáticas curvas entre variables.
+- **Penalización Matemática (Regularización):** 
+  - **Ridge (Norma L2):** Restricción de coeficientes para reducir la varianza sin eliminar variables empíricas.
+  - **Lasso (Norma L1):** Inducción de esparsidad, funcionando intrínsecamente como un método de selección de características (Feature Selection).
+- **Modelos de Ensamble para Regresión:** Implementación de *Random Forest Regressor* y metodologías iterativas de *Gradient Boosting*.
+
+## ⚙️ Tecnologías y Frameworks Aplicados
+- **Scikit-Learn:** Principal motor analítico utilizado para instanciar los regresores Ridge y Lasso. Su interfaz unificada facilita la transición teórica entre un modelo lineal simple y una regresión regularizada de alta complejidad.
+- **Pandas:** Utilizado como estructura de datos primaria para la manipulación columnar y detección analítica de valores atípicos (Outliers).
 
 ---
 *Desarrollado por Rubén Schnettler.*
