@@ -29,4 +29,4 @@ Estudio en profundidad de técnicas de regresión avanzadas, manejo de datos at�
 Despliegue y puesta en marcha de modelos entrenados.
 
 ---
-*Desarrollado con ❤️ por Rubén Schnettler*
+*Desarrollado por Rubén Schnettler.*
