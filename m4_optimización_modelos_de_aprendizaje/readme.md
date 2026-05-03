@@ -1,59 +1,15 @@
-# 🧠 Optimización de Modelos de Aprendizaje Automático - Módulo 4
+# Módulo 4: Optimización de Modelos de Aprendizaje
 
-Este repositorio contiene el desarrollo completo de las actividades del **Módulo 4** del curso de *Machine Learning*, centradas en el **ajuste y optimización de modelos de clasificación binaria** utilizando técnicas como búsqueda aleatoria, búsqueda en malla, optimización bayesiana y algoritmos genéticos.
+Este módulo profundiza en las técnicas necesarias para maximizar el rendimiento y la generalización de los modelos predictivos, asegurando que no solo ajusten bien a los datos de entrenamiento, sino que sean robustos frente a datos no vistos.
 
-Cada carpeta corresponde a una sesión del módulo, incluyendo también la evaluación final integradora. Los modelos están orientados a la predicción de enfermedades, usando como base el conjunto de datos *Breast Cancer Wisconsin* de Scikit-learn, así como un dataset clínico multivariable disponible en Kaggle.
+## Contenidos Principales
+- **Métricas de Evaluación:** Análisis exhaustivo de Accuracy, Precision, Recall, F1-Score y la Curva ROC/AUC.
+- **Ajuste de Hiperparámetros (Tuning):** Implementación de estrategias de búsqueda algorítmica como Grid Search y Random Search.
+- **Validación de Modelos:** Técnicas de Cross-Validation (K-Fold) para prevenir el sobreajuste (overfitting).
+- **Curvas de Aprendizaje:** Análisis de sesgo y varianza para diagnosticar problemas de rendimiento.
 
----
-
-## 📂 Estructura del repositorio
-
-```
-.
-├── actividad1_modulo4/     # Búsqueda aleatoria y en malla con Ray Tune
-├── actividad2_modulo4/     # Visualización y comparación de tuning
-├── actividad3_modulo4/     # Optimización Bayesiana con skopt e Hyperopt
-├── actividad4_modulo4/     # Algoritmos genéticos con DEAP
-├── actividad5_modulo4/     # Comparación de Ray Tune y Optuna
-└── evaluacion_modular/     # Proyecto final con dataset clínico (Kaggle)
-```
-
-Cada directorio contiene:
-- `principal.py`: archivo principal ejecutable
-- `requirements.txt`: dependencias mínimas para correr cada proyecto
-- `readme.md`: documentación específica por actividad
+## Aplicación Técnica
+Se utilizan librerías estándar de la industria como Scikit-Learn (`GridSearchCV`, `cross_val_score`) para automatizar el proceso de optimización sobre conjuntos de datos estructurados.
 
 ---
-
-## 🚀 Requisitos generales
-
-Antes de ejecutar cualquier actividad, se recomienda crear un entorno virtual e instalar las dependencias específicas de cada carpeta:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 🔍 Temas abordados
-
-- **Búsqueda aleatoria y en malla (Ray Tune)**
-- **Optimización bayesiana (scikit-optimize, Hyperopt)**
-- **Algoritmos genéticos (DEAP)**
-- **Tuning automático (Optuna vs Ray Tune)**
-- **Evaluación de métricas: F1-Score, clasificación binaria**
-- **Visualización de resultados y reflexión crítica**
-
----
-
-## 👤 Autor
-
-Este conjunto de actividades fue desarrollado por **Rubén Schnettler**  
-📍 Viña del Mar, Chile.
-
----
-
-## 🤖 Asistencia técnica
-
-Depuración de código, documentación y resolución de errores con **GitHub Copilot** y  
-**ChatGPT (gpt-4o, build 2025-07)**
+*Desarrollado por Rubén Schnettler.*
